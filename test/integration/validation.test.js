@@ -13,8 +13,8 @@ describe('Navigation data', () => {
 
 	it('adheres to navigation schema', () => {
 		const valid = v.validate('root', d);
-		proclaim.isNull(v.errors, "The navigation data did not match the scheme");
-		proclaim.equal(valid, true, "The navigation data did not match the scheme");
+		assert.isNull(v.errors, 'The navigation data did not match the scheme');
+		assert.equal(valid, true, 'The navigation data did not match the scheme');
 	});
 });
 

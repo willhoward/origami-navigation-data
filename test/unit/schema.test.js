@@ -10,11 +10,11 @@ describe('Schema', () => {
 	});
 
 	it('has a validate function', () => {
-		proclaim.isFunction(schema.validate);
+		assert.isFunction(schema.validate);
 	});
 
 	it('has an errors property', () => {
-		proclaim.isDefined(schema.errors);
+		assert.isDefined(schema.errors);
 	});
 });
 
