@@ -1,0 +1,16 @@
+machine:
+  node:
+    version: '6'
+
+test:
+  override:
+    - make verify
+    - make test
+
+deployment:
+  release:
+    branch: master
+    commands:
+      - make deploy
+      - make change-request
+      - make update-cmdb

@@ -1,0 +1,12 @@
+{
+	"example-menu": {
+		"label": "Example Menu",
+		"items": [
+			{
+				"label": "Example Item",
+				"url": "http://example.com/",
+				"submenu": null
+			}
+		]
+	}
+}
