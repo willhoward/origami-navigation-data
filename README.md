@@ -11,6 +11,7 @@ Provides the data consumed via [origami-navigation-service].
 Table Of Contents
 -----------------
 
+  * [How to edit navigation data](#how-to-edit-navigation-data)
   * [Requirements](#requirements)
   * [Running Locally](#running-locally)
   * [Configuration](#configuration)
@@ -20,6 +21,21 @@ Table Of Contents
   * [Monitoring](#monitoring)
   * [Trouble-Shooting](#trouble-shooting)
   * [License](#license)
+
+
+How to edit navigation data
+---------------------------
+
+The navigation data is written in JSON and can be edited via the Github edit tool.
+
+Steps to edit navigation data:
+
+- Open the navigation data file in the [Github edit tool](https://github.com/Financial-Times/origami-navigation-service-data/edit/master/data/navigation.json)
+- Make the necessary changes
+- Press the "Commit changes" button
+- Add a comment which explains what you are changing and why
+- Press the "Create pull request" button
+- Someone from [Origami](https://github.com/orgs/Financial-Times/teams/origami-core) will review your changes before merging them into production
 
 
 Requirements
