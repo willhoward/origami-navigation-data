@@ -4,7 +4,7 @@ Origami Navigation Service Data
 
 Provides the data consumed via [origami-navigation-service].
 
-[![Build status](https://img.shields.io/circleci/project/Financial-Times/origami-navigation-service-data.svg)][ci]
+[![Build status](https://img.shields.io/circleci/project/Financial-Times/origami-navigation-data.svg)][ci]
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)][license]
 
 
@@ -30,7 +30,7 @@ The navigation data is written in JSON and can be edited via the Github edit too
 
 Steps to edit navigation data:
 
-- Open the navigation data file in the [Github edit tool](https://github.com/Financial-Times/origami-navigation-service-data/edit/master/data/navigation.json)
+- Open the navigation data file in the [Github edit tool](https://github.com/Financial-Times/origami-navigation-data/edit/master/data/navigation.json)
 - Make the necessary changes
 - Press the "Commit changes" button
 - Add a comment which explains what you are changing and why
@@ -107,7 +107,7 @@ License
 The Financial Times has published this software under the [MIT license][license].
 
 
-[ci]: https://circleci.com/gh/Financial-Times/origami-navigation-service-data
+[ci]: https://circleci.com/gh/Financial-Times/origami-navigation-data
 [license]: http://opensource.org/licenses/MIT
 [node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/

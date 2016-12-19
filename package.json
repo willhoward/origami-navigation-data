@@ -1,5 +1,5 @@
 {
-  "name": "origami-navigation-service-data",
+  "name": "origami-navigation-data",
   "version": "0.0.0",
   "private": true,
   "description": "Provides the data consumed via origami-navigation-service.",
@@ -9,11 +9,11 @@
   "license": "MIT",
   "homepage": "https://www.ft.com/__origami/service/navigation-data/",
   "bugs": {
-    "url": "https://github.com/Financial-Times/origami-navigation-service-data/issues"
+    "url": "https://github.com/Financial-Times/origami-navigation-data/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Financial-Times/origami-navigation-service-data.git"
+    "url": "https://github.com/Financial-Times/origami-navigation-data.git"
   },
   "engines": {
     "node": "^6",

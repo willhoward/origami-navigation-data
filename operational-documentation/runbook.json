@@ -4,7 +4,7 @@
 	"serviceTier": "Bronze",
 	"lifecycleStage": "Requirements",
 	"primaryURL": "https://www.ft.com/__origami/service/navigation-data/v2/navigation.json",
-	"moreInformation": "https://github.com/Financial-Times/origami-navigation-service-data",
+	"moreInformation": "https://github.com/Financial-Times/origami-navigation-data",
 	"troubleshooting": "",
 	"monitoring": "",
 	"primaryContact": {
