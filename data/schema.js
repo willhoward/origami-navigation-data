@@ -2,14 +2,18 @@
 
 // {
 // 	'label': 'Example Menu',
-// 	'items': []
+// 	'items': [item]
 // }
 const menu = {
 	id: 'menu',
 	required: ['label', 'items'],
 	properties: {
 		label: {
-			type: 'string'
+			anyOf: [{
+				type: 'null'
+			}, {
+				type: 'string'
+			}]
 		},
 		items: {
 			type: 'array',
@@ -42,8 +46,12 @@ const item = {
 			minLength: 1
 		},
 		url: {
-			type: 'string',
-			 format: 'uri'
+			anyOf: [{
+				type: 'null'
+			}, {
+				type: 'string',
+				format: 'uri'
+			}]
 		},
 		submenu: {
 			anyOf: [{
@@ -64,7 +72,7 @@ const root = {
 	id: 'root',
 	type: 'object',
 	minProperties: 1,
-	required: ['example-menu'],
+	required: ['account', 'drawer-uk', 'drawer-international', 'user', 'anon', 'footer', 'navbar-simple', 'navbar-right', 'navbar-right-anon', 'navbar-uk', 'navbar-international'],
 	'patternProperties': {
 		'^.*$': { $ref: 'menu' }
 	},

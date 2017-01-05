@@ -18,7 +18,7 @@ verify-coverage:
 # Test tasks
 # ----------
 
-test: test-unit-coverage verify-coverage
+test: test-unit-coverage verify-coverage test-integration
 	@$(DONE)
 
 test-unit:
@@ -27,6 +27,10 @@ test-unit:
 
 test-unit-coverage:
 	@NODE_ENV=test istanbul cover node_modules/.bin/_mocha -- test/unit --recursive
+	@$(DONE)
+
+test-integration:
+	@NODE_ENV=test mocha test/integration --recursive --timeout 10000 --slow 2000
 	@$(DONE)
 
 
