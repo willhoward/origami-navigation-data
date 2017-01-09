@@ -6,6 +6,13 @@ include n.Makefile
 
 EXPECTED_COVERAGE = 90
 
+# Build tasks
+# -----------
+
+.PHONY: build
+build:
+	@node ./src/build.js
+	@$(DONE)
 
 # Verify tasks
 # ------------
@@ -18,7 +25,7 @@ verify-coverage:
 # Test tasks
 # ----------
 
-test: test-unit-coverage verify-coverage test-integration
+test: build test-unit-coverage verify-coverage test-integration
 	@$(DONE)
 
 test-unit:
@@ -45,8 +52,8 @@ endif
 ifndef AWS_SECRET_KEY
 	$(error AWS_SECRET_KEY is not set. You can find the key in LastPass)
 endif
-	@s3-cli put ./data/navigation.json s3://origami-navigation-service-data-eu/v2/navigation.json --region eu-west-1 -P
-	@s3-cli put ./data/navigation.json s3://origami-navigation-service-data-us/v2/navigation.json --region us-east-1 -P
+	@s3-cli put ./build/navigation.json s3://origami-navigation-service-data-eu/v2/navigation.json --region eu-west-1 -P
+	@s3-cli put ./build/navigation.json s3://origami-navigation-service-data-us/v2/navigation.json --region us-east-1 -P
 	@$(DONE)
 
 update-cmdb:

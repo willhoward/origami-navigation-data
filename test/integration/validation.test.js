@@ -8,7 +8,7 @@ describe('Navigation data', () => {
 
 	beforeEach(() => {
 		v = require('../../data/schema');
-		d = require('../../data/navigation');
+		d = require('../../build/navigation');
 	});
 
 	it('adheres to navigation schema', () => {

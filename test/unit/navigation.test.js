@@ -4,7 +4,7 @@ const assert = require('proclaim');
 const fs = require('fs');
 
 describe('Navigation data', () => {
-	const navigationDataPath = __dirname + '/../../data/navigation.json';
+	const navigationDataPath = __dirname + '/../../build/navigation.json';
 
 	it('exists', () => {
 		assert.equal(fs.existsSync(navigationDataPath), true, 'The navigation data file does not exist');

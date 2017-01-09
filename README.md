@@ -26,11 +26,11 @@ Table Of Contents
 How to edit navigation data
 ---------------------------
 
-The navigation data is written in JSON and can be edited via the Github edit tool.
+The navigation data is written in YAML and can be edited via the Github edit tool.
 
 Steps to edit navigation data:
 
-- Open the navigation data file in the [Github edit tool](https://github.com/Financial-Times/origami-navigation-data/edit/master/data/navigation.json)
+- Open the navigation data file in the [Github edit tool](https://github.com/Financial-Times/origami-navigation-data/edit/master/data/navigation.yaml)
 - Make the necessary changes
 - Press the "Commit changes" button
 - Add a comment which explains what you are changing and why

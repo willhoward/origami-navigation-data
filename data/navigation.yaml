@@ -1,0 +1,460 @@
+account:
+  label: Account
+  items:
+  - <<: *sign_in
+  - <<: *sign_out
+  - <<: *subscribe
+  - <<: *my_account
+  - <<: *my_ft
+  - <<: *portfolio
+  - <<: *opt_out
+
+
+drawer-uk:
+  label: Drawer
+  items:
+  - label: Top section
+    url:
+    submenu:
+      label:
+      items:
+      - <<: *home
+      - <<: *world
+        submenu: &world_submenu
+          label:
+          items:
+          - <<: *world_economy
+          - <<: *uk
+            submenu:
+              label:
+              items:
+              - <<: *uk_economy
+              - <<: *uk_politics_policy
+              - <<: *uk_companies
+          - <<: *us
+            submenu:
+              label:
+              items:
+              - <<: *us_economy
+              - <<: *us_politics_policy
+              - <<: *us_companies
+              - <<: *us_election
+          - <<: *china
+            submenu:
+              label:
+              items:
+              - <<: *chinese_economy
+              - <<: *china_politics_policy
+          - <<: *africa
+          - <<: *asia_pacific
+          - <<: *emerging_markets
+          - <<: *europe
+          - <<: *latin_america
+          - <<: *middle_east_and_africa
+      - <<: *uk
+        submenu: &uk_submenu
+          label:
+          items:
+          - <<: *uk_economy
+          - <<: *uk_politics_policy
+          - <<: *uk_companies
+      - <<: *companies
+        submenu: &companies_submenu
+          label:
+          items:
+          - <<: *energy
+            submenu:
+              label:
+              items:
+              - <<: *mining
+              - <<: *oil_gas
+              - <<: *utilities
+          - <<: *financials
+            submenu:
+              label:
+              items:
+              - <<: *banks
+              - <<: *insurance
+              - <<: *property
+              - <<: *financial_services
+          - <<: *health
+            submenu:
+              label:
+              items:
+              - <<: *health_care
+              - <<: *pharmaceuticals
+          - <<: *industrials
+            submenu:
+              label:
+              items:
+              - <<: *aerospace_defence
+              - <<: *automobiles
+              - <<: *basic_resources
+              - <<: *chemicals
+              - <<: *construction
+              - <<: *industrial_goods
+              - <<: *support_services
+          - <<: *media
+          - <<: *retail_consumer
+            submenu:
+              label:
+              items:
+              - <<: *food_beverage
+              - <<: *luxury_goods
+              - <<: *personal_household_goods
+              - <<: *retail
+              - <<: *tobacco
+              - <<: *travel_leisure
+          - <<: *technology
+          - <<: *telecoms
+          - <<: *transport
+            submenu:
+              label:
+              items:
+              - <<: *airlines
+              - <<: *shipping
+              - <<: *rail
+      - <<: *markets
+        submenu: &markets_submenu
+          label:
+          items:
+          - <<: *fastft
+            submenu:
+          - <<: *alphaville
+          - <<: *markets_data
+          - <<: *capital_markets
+          - <<: *commodities
+            submenu:
+              label:
+              items:
+              - <<: *oil
+              - <<: *gold
+              - <<: *copper
+          - <<: *currencies
+          - <<: *equities
+            submenu:
+              label:
+              items:
+              - <<: *us_equities
+              - <<: *uk_equities
+              - <<: *european_equities
+              - <<: *asia_pacific_equities
+          - <<: *fund_management
+            submenu:
+              label:
+              items:
+              - <<: *exchange_traded_funds
+              - <<: *investment_strategy
+              - <<: *funds_regulation
+              - <<: *pensions_industry
+          - <<: *trading
+      - <<: *opinion
+        submenu: &opinion_submenu
+          label:
+          items:
+          - <<: *columnists
+            submenu:
+              label:
+              items:
+              - <<: *anjana_ahuja
+              - <<: *nick_butler
+              - <<: *gavyn_davies
+              - <<: *janan_ganesh
+              - <<: *john_gapper
+              - <<: *john_kay
+              - <<: *lucy_kellaway
+              - <<: *roula_khalaf
+              - <<: *edward_luce
+              - <<: *wolfgang_munchau
+              - <<: *david_pilling
+              - <<: *lisa_pollack
+              - <<: *gideon_rachman
+              - <<: *martin_sandbu
+              - <<: *robert_shrimsley
+              - <<: *philip_stephens
+              - <<: *lawrence_summers
+              - <<: *gillian_tett
+              - <<: *john_thornhill
+              - <<: *patti_waldmeir
+              - <<: *martin_wolf
+          - <<: *ft_view
+          - <<: *the_big_read
+          - <<: *instant_insight
+          - <<: *lex
+          - <<: *alphaville
+          - <<: *blogs
+          - <<: *obituaries
+          - <<: *letters
+      - <<: *work_careers
+        submenu: &work_careers_submenu
+          label:
+          items:
+          - <<: *business_school_rankings
+          - <<: *business_education
+            submenu:
+              label:
+              items:
+              - <<: *business_school_rankings
+          - <<: *entrepreneurship
+          - <<: *recruitment
+          - <<: *business_books
+      - <<: *life_arts
+        submenu: &life_arts_submenu
+          label:
+          items:
+          - <<: *arts
+            submenu:
+              label:
+              items:
+              - <<: *architecture
+              - <<: *dance
+              - <<: *design
+              - <<: *film
+              - <<: *music
+              - <<: *television
+              - <<: *theatre
+              - <<: *visual_arts
+          - <<: *books
+            submenu:
+              label:
+              items:
+              - <<: *business_books
+              - <<: *fiction
+              - <<: *non_fiction
+          - <<: *food_drink
+            submenu:
+              label:
+              items:
+              - <<: *wine
+              - <<: *recipes
+              - <<: *restaurants
+          - <<: *magazine
+          - <<: *house_home
+          - <<: *style
+          - <<: *travel
+            submenu:
+              label:
+              items:
+              - <<: *adventures
+              - <<: *cycling_tours
+              - <<: *city_breaks
+              - <<: *winter_breaks
+      - <<: *personal_finance
+        submenu: &personal_finance_submenu
+          label:
+          items:
+          - <<: *property_mortgages
+          - <<: *investments
+          - <<: *pensions
+            submenu:
+              label:
+              items:
+              - <<: *pensioncalculator
+          - <<: *tax
+          - <<: *banking_savings
+      - <<: *special_reports
+      - <<: *science_environment
+  - label: FT recommends
+    url:
+    submenu: &recommends_submenu
+      label:
+      items:
+      - <<: *lex
+      - <<: *alphaville
+      - <<: *emsquared
+      - <<: *lunch_with_the_ft
+      - <<: *video
+      - <<: *podcasts
+      - <<: *blogs
+      - <<: *newsfeed
+      - <<: *newsletters
+  - label:
+    url:
+    submenu: &extras_submenu
+      label:
+      items:
+      - <<: *my_ft
+      - <<: *portfolio
+      - <<: *epaper
+      - <<: *crossword
+
+
+drawer-international:
+  label: Drawer
+  items:
+  - label: Top sections
+    url:
+    submenu:
+      label:
+      items:
+      - <<: *home
+      - <<: *world
+        submenu: *world_submenu
+      - <<: *us
+        submenu: &us_submenu
+          label:
+          items:
+          - <<: *us_economy
+          - <<: *us_politics_policy
+          - <<: *us_companies
+          - <<: *us_election
+      - <<: *companies
+        submenu: *companies_submenu
+      - <<: *markets
+        submenu: *markets_submenu
+      - <<: *opinion
+        submenu: *opinion_submenu
+      - <<: *work_careers
+        submenu: *work_careers_submenu
+      - <<: *life_arts
+        submenu: *life_arts_submenu
+      - <<: *personal_finance
+        submenu: *personal_finance_submenu
+      - <<: *special_reports
+      - <<: *science_environment
+  - label: FT recommends
+    url:
+    submenu: *recommends_submenu
+  - label:
+    url:
+    submenu: *extras_submenu
+
+
+user:
+  label: User
+  items:
+  - <<: *help
+  - <<: *my_account
+  - <<: *sign_out
+
+
+anon:
+  label: Anon
+  items:
+  - <<: *help
+  - <<: *subscribe
+  - <<: *sign_in
+
+
+footer:
+  label: Footer
+  items:
+  - label: Support
+    url:
+    submenu:
+      label:
+      items:
+      - <<: *feedback
+      - <<: *help
+      - <<: *about_us
+  - label: Legal & Privacy
+    url:
+    submenu:
+      label:
+      items:
+      - <<: *terms_conditions
+      - <<: *privacy
+      - <<: *cookies
+      - <<: *copyright
+  - label: Services
+    url:
+    submenu:
+      label:
+      items:
+      - <<: *conferences_events
+      - <<: *individual_subscriptions
+      - <<: *group_subscriptions
+      - <<: *republishing
+      - <<: *contracts_tenders
+      - <<: *analyst_research
+      - <<: *executive_job_search
+      - <<: *advertise_with_the_ft
+      - <<: *ft_twitter
+      - <<: *ebooks
+  - label: Tools
+    url:
+    submenu:
+      label:
+      items:
+      - <<: *portfolio
+        submenu:
+      - <<: *epaper
+        submenu:
+      - <<: *alerts_hub
+        submenu:
+      - <<: *lexicon
+        submenu:
+      - <<: *mba_rankings
+        submenu:
+      - <<: *economic_calendar
+        submenu:
+      - <<: *newsfeed
+        submenu:
+      - <<: *newsletters
+        submenu:
+      - <<: *currency_converter
+        submenu:
+      - <<: *presscuttings
+        submenu:
+
+
+navbar-simple:
+  label: Navigation
+  items:
+  - <<: *home
+  - <<: *fastft
+  - <<: *markets_data
+
+
+navbar-right:
+  label: Navigation
+  items:
+  - <<: *portfolio
+  - <<: *my_account
+
+
+navbar-right-anon:
+  label: Navigation
+  items:
+  - <<: *sign_in
+  - <<: *subscribe
+
+
+navbar-uk:
+  label: Navigation
+  items:
+  - <<: *home
+  - <<: *world
+    submenu: *world_submenu
+  - <<: *uk
+    submenu: *uk_submenu
+  - <<: *companies
+    submenu: *companies_submenu
+  - <<: *markets
+    submenu: *markets_submenu
+  - <<: *opinion
+    submenu: *opinion_submenu
+  - <<: *work_careers
+    submenu: *work_careers_submenu
+  - <<: *life_arts
+    submenu: *life_arts_submenu
+
+
+navbar-international:
+  label: Navigation
+  items:
+  - <<: *home
+  - <<: *world
+    submenu: *world_submenu
+  - <<: *us
+    submenu: *us_submenu
+  - <<: *companies
+    submenu: *companies_submenu
+  - <<: *markets
+    submenu: *markets_submenu
+  - <<: *opinion
+    submenu: *opinion_submenu
+  - <<: *work_careers
+    submenu: *work_careers_submenu
+  - <<: *life_arts
+    submenu: *life_arts_submenu

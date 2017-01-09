@@ -42,8 +42,11 @@ const item = {
 	required: ['label', 'url', 'submenu'],
 	properties: {
 		label: {
-			type: 'string',
-			minLength: 1
+			anyOf: [{
+				type: 'null'
+			}, {
+				type: 'string'
+			}]
 		},
 		url: {
 			anyOf: [{
