@@ -13,7 +13,7 @@ account:
 drawer-uk:
   label: Drawer
   items:
-  - label: Top section
+  - label: Top sections
     url:
     submenu:
       label:
