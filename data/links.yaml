@@ -1103,7 +1103,7 @@ links:
 
   - &individual_subscriptions
     label: "Individual Subscriptions"
-    url: "https://sub.ft.com/spa_5"
+    url: "http://www.ft.com/products"
     submenu:
 
   - &group_subscriptions
