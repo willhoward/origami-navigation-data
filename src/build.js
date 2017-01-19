@@ -4,24 +4,18 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 const path = require('path');
 
-const yamlFiles = [
-	'data/links.yaml',
-	'data/navigation.yaml'
-];
-
-function readFiles () {
-	const yamlStrings = yamlFiles.map(file => fs.readFileSync(file, 'utf8'));
-	const combinedYamlStrings = yamlStrings.join('\n');
-	return combinedYamlStrings;
+function readFiles(files) {
+	const strings = files.map(file => fs.readFileSync(file, 'utf8'));
+	return strings.join('\n');
 }
 
-function yamlToJSON (yamlString) {
+function yamlToJSON(yamlString) {
 	const source = yaml.safeLoad(yamlString);
 	delete source.links;
 	return source;
 }
 
-function saveToFile (data) {
+function saveToFile(data) {
 	const destDir = path.resolve(__dirname, '../', 'build');
 	try {
 		fs.statSync(destDir);
@@ -29,14 +23,14 @@ function saveToFile (data) {
 		fs.mkdirSync(destDir);
 	}
 
-	return fs.writeFileSync(path.join(destDir, 'navigation.json'), JSON.stringify(data, null, 4), {encoding:'utf8'});
+	return fs.writeFileSync(path.join(destDir, 'navigation.json'), JSON.stringify(data, null, 4), {
+		encoding: 'utf8'
+	});
 }
 
-Promise.resolve()
-.then(readFiles)
-.then(yamlToJSON)
-.then(saveToFile)
-.catch(err => {
-	console.error(err.stack);
-	process.exit(1);
-});
+module.exports = function (files) {
+	return Promise.resolve(files)
+		.then(readFiles)
+		.then(yamlToJSON)
+		.then(saveToFile);
+};

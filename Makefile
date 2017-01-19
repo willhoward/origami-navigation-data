@@ -11,7 +11,7 @@ EXPECTED_COVERAGE = 90
 
 .PHONY: build
 build:
-	@node ./src/build.js
+	@node ./src/cli.js --file data/links.yaml --file data/navigation.yaml
 	@$(DONE)
 
 # Verify tasks
