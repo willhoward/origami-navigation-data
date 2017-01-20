@@ -6,7 +6,7 @@ describe('Schema', () => {
 	let schema;
 
 	beforeEach(() => {
-		schema = require('../../data/schema');
+		schema = require('../../../data/schema');
 	});
 
 	it('has a validate function', () => {
