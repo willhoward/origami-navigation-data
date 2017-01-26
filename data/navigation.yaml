@@ -347,6 +347,7 @@ footer:
       - <<: *feedback
       - <<: *help
       - <<: *about_us
+      - <<: *accessibility
   - label: Legal & Privacy
     url:
     submenu:
