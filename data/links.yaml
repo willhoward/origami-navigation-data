@@ -38,7 +38,7 @@ links:
 
   - &opinion
     label: Opinion
-    url: "/comment"
+    url: "/opinion"
     submenu:
 
   - &work_careers
