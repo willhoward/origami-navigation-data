@@ -207,6 +207,7 @@ drawer-uk:
               label:
               items:
               - <<: *architecture
+              - <<: *collecting
               - <<: *dance
               - <<: *design
               - <<: *film

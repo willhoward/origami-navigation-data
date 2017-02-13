@@ -1294,3 +1294,8 @@ links:
     label: "This is Africa"
     url: "http://www.thisisafricaonline.com/"
     submenu:
+
+  - &collecting
+    label: "Collecting"
+    url: "/collecting"
+    submenu:
