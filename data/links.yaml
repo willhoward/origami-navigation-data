@@ -87,8 +87,8 @@ links:
     submenu:
 
   - &uk_economy
-    label: "UK Economy"
-    url: "/global-economy/uk"
+    label: "UK Business & Economy"
+    url: "/uk-business-economy"
     submenu:
 
   - &uk_politics_policy
@@ -313,7 +313,7 @@ links:
 
   - &luxury_goods
     label: 'Luxury Goods'
-    url: '/stream/sectionsId/MWFkNTA2YmEtMTM4OC00MzA4LWExNzEtM2I5ODcxYjlmZThh-U2VjdGlvbnM='
+    url: '/topics/themes/luxury-goods'
     submenu:
 
   - &personal_household_goods
