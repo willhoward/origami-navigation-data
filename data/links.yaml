@@ -188,7 +188,7 @@ links:
 
   - &china_politics_policy
     label: "China Politics & Policy"
-    url: "/stream/topicsId/ZTBkYTQyYjMtNjIzYi00NDhkLWIxMDYtOTYwNjdlZDgxZDAx-VG9waWNz"
+    url: "/topics/themes/China_Politics_&_Policy"
     submenu:
 
   - &india
@@ -438,17 +438,17 @@ links:
 
   - &oil
     label: "Oil"
-    url: "/stream/topicsId/ZmFmYTUxOTItMGZjZC00YmJkLWJlZTQtMmY3ZDZiOWZkYmYw-VG9waWNz"
+    url: "/topics/themes/Oil"
     submenu:
 
   - &gold
     label: "Gold"
-    url: "/stream/topicsId/MjA=-VG9waWNz"
+    url: "/topics/themes/Gold"
     submenu:
 
   - &copper
     label: "Copper"
-    url: "/stream/topicsId/MTNiODNhYmEtOTVjYi00ZDI2LTgyMjktMzE5NWM1OGIwMzRj-VG9waWNz"
+    url: "/topics/themes/Copper"
     submenu:
 
   - &currencies
@@ -583,7 +583,7 @@ links:
 
   - &obituaries
     label: 'Obituaries'
-    url: '/stream/sectionsId/MTIz-U2VjdGlvbnM='
+    url: '/comment/obituaries'
     submenu:
 
   - &letters
@@ -593,7 +593,7 @@ links:
 
   - &anjana_ahuja
     label: 'Anjana Ahuja'
-    url: '/stream/authorsId/Q0ItMDA0NzU4OQ==-QXV0aG9ycw=='
+    url: '/comment/columnists/anjana-ahuja'
     submenu:
 
   - &janan_ganesh
@@ -693,22 +693,22 @@ links:
 
   - &martin_sandbu
     label: 'Martin Sandbu'
-    url: '/stream/authorsId/Q0ItMDAwMTAzOA==-QXV0aG9ycw=='
+    url: '/topics/authors/Martin_Sandbu'
     submenu:
 
   - &john_thornhill
     label: 'John Thornhill'
-    url: '/stream/authorsId/Q0ItMDAwMDg3NQ==-QXV0aG9ycw=='
+    url: '/john-thornhill'
     submenu:
 
   - &gavyn_davies
     label: 'Gavyn Davies'
-    url: '/stream/authorsId/Q0ItR0Q1NDMyMQ==-QXV0aG9ycw=='
+    url: '/gavyn-davies'
     submenu:
 
   - &nick_butler
     label: 'Nick Butler'
-    url: '/stream/authorsId/Q0IwMDA0MzY1-QXV0aG9ycw=='
+    url: '/nick-butler'
     submenu:
 
   - &magazine
@@ -758,7 +758,7 @@ links:
 
   - &recipes
     label: 'Recipes'
-    url: '/stream/genreId/ZGQ4MmVjY2EtZDlhYy00MWM4LTk4OWEtYzc4NWQ0N2U0MzRj-R2VucmVz'
+    url: '/arts-leisure/food-drink/recipes'
     submenu:
 
   - &restaurants
