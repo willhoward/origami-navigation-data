@@ -973,7 +973,7 @@ links:
 
   - &tools_services
     label: "Tools & Services"
-    url: "http://help.ft.com/tools-services/"
+    url: "http://help.ft.com/help/tools-services/"
     submenu:
 
   - &newsfeed
