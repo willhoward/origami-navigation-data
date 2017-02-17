@@ -526,11 +526,6 @@ links:
     url: "/ft-trading-room/clearing-settlement"
     submenu:
 
-  - &developing_markets_asia
-    label: "Developing Markets & Asia"
-    url: "/ft-trading-room/developing-markets-asia"
-    submenu:
-
   - &high_frequency_trading
     label: "High Frequency Trading"
     url: "/ft-trading-room/high-frequency-trading"
@@ -544,11 +539,6 @@ links:
   - &trading_technology
     label: "Trading Technology"
     url: "/ft-trading-room/trading-technology"
-    submenu:
-
-  - &carbon_markets
-    label: "Carbon Markets"
-    url: "/ft-trading-room/carbon-markets"
     submenu:
 
   - &exchanges_consolidation
@@ -913,7 +903,7 @@ links:
 
   - &alphaville
     label: "Alphaville"
-    url: "http://ftalphaville.ft.com"
+    url: "https://ftalphaville.ft.com"
     submenu:
 
   - &special_reports
@@ -1123,7 +1113,7 @@ links:
 
   - &analyst_research
     label: "Analysts Research"
-    url: "https://commerce.uk.reuters.com/purchase/mostPopular.do?rpc=471"
+    url: "http://commerce.uk.reuters.com/purchase/mostPopular.do?rpc=471"
     submenu:
 
   - &executive_job_search
