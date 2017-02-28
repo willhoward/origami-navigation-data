@@ -1036,11 +1036,6 @@ links:
     url: "/myft"
     submenu:
 
-  - &opt_out
-    label: "Opt Out"
-    url: "/opt-out-confirm?location=${currentPath}"
-    submenu:
-
   - &view_site_tips
     label: "View Site Tips"
     url: "/tour"

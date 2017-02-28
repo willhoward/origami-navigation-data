@@ -7,7 +7,6 @@ account:
   - <<: *my_account
   - <<: *my_ft
   - <<: *portfolio
-  - <<: *opt_out
 
 
 drawer-uk:
