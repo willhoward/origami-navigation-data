@@ -251,6 +251,7 @@ drawer-uk:
               - <<: *pensioncalculator
           - <<: *tax
           - <<: *banking_savings
+      - <<: *science
       - <<: *special_reports
   - label: FT recommends
     url:
@@ -308,6 +309,7 @@ drawer-international:
         submenu: *life_arts_submenu
       - <<: *personal_finance
         submenu: *personal_finance_submenu
+      - <<: *science
       - <<: *special_reports
   - label: FT recommends
     url:
