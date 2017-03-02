@@ -241,9 +241,9 @@ links:
     url: "/markets/emerging-markets"
     submenu:
 
-  - &science_environment
-    label: "Science & Environment"
-    url: "/science-environment"
+  - &science
+    label: "Science"
+    url: "/science"
     submenu:
 
   - &medical_science
