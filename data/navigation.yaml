@@ -247,6 +247,7 @@ drawer-uk:
           - <<: *pensions
           - <<: *tax
           - <<: *banking_savings
+          - <<: *advice&comment
       - <<: *science
       - <<: *special_reports
   - label: FT recommends
