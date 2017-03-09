@@ -1093,12 +1093,12 @@ links:
 
   - &group_subscriptions
     label: "Group Subscriptions"
-    url: "http://enterprise.ft.com/en-gb/services/group-subscriptions/"
+    url: "https://enterprise.ft.com/en-gb/services/group-subscriptions/"
     submenu:
 
   - &republishing
     label: "Republishing"
-    url: "http://enterprise.ft.com/en-gb/services/republishing/"
+    url: "https://enterprise.ft.com/en-gb/services/republishing/"
     submenu:
 
   - &contracts_tenders
