@@ -866,11 +866,6 @@ links:
     url: "/business-education/applying-to-business-school"
     submenu:
 
-  - &finding_a_job
-    label: "Finding a Job"
-    url: "/business-education/mba-careers"
-    submenu:
-
   - &starting_a_business
     label: "Starting a Business"
     url: "/business-education/starting-a-business"
