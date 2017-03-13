@@ -359,6 +359,7 @@ footer:
     submenu:
       label:
       items:
+      - <<: *securedrop
       - <<: *conferences_events
       - <<: *individual_subscriptions
       - <<: *group_subscriptions

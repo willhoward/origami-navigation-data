@@ -62,6 +62,13 @@ const item = {
 			}, {
 				$ref: 'menu'
 			}]
+		},
+		disableTracking: {
+			anyOf: [{
+				type: 'null'
+			}, {
+				type: 'boolean'
+			}]
 		}
 	},
 	additionalProperties: false

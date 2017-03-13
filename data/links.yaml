@@ -1279,8 +1279,14 @@ links:
     label: "Collecting"
     url: "/collecting"
     submenu:
-    
+
   - &advice&comment
     label: Advice & Comment
     url: "/personal-finance/advice-commment"
+    submenu:
+
+  - &securedrop
+    label: "Share news tips securely"
+    url: "/securedrop"
+    disableTracking: true
     submenu:
