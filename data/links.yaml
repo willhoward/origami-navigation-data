@@ -167,7 +167,7 @@ links:
     submenu:
 
   - &americas
-    label: "Latin America"
+    label: "Americas"
     url: "/world/americas"
     submenu:
 
