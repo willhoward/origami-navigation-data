@@ -142,7 +142,6 @@ drawer-uk:
               label:
               items:
               - <<: *exchange_traded_funds
-              - <<: *investment_strategy
               - <<: *funds_regulation
               - <<: *pensions_industry
           - <<: *trading
