@@ -493,7 +493,7 @@ links:
 
   - &exchange_traded_funds
     label: "Exchange Traded Funds"
-    url: "/ftfm/etfs"
+    url: "/topics/themes/exchange-traded-funds"
     submenu:
 
   - &investment_strategy
@@ -508,12 +508,12 @@ links:
 
   - &funds_regulation
     label: "Funds Regulation"
-    url: "/ftfm/regulation"
+    url: "/topics/themes/fund-regulation"
     submenu:
 
   - &pensions_industry
     label: "Pensions Industry"
-    url: "/ftfm/pensions"
+    url: "/topics/themes/pensions-industry"
     submenu:
 
   - &trading
