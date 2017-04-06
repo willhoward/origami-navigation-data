@@ -856,11 +856,6 @@ links:
     url: "http://rankings.ft.com/businessschoolrankings/global-mba-ranking-2016?ft_site=falcon"
     submenu:
 
-  - &applying_for_a_masters
-    label: "Applying for a Masters"
-    url: "/business-education/applying-masters-degree"
-    submenu:
-
   - &applying_to_a_business_school
     label: "Applying to a Business School"
     url: "/business-education/applying-to-business-school"
