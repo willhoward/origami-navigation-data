@@ -953,7 +953,7 @@ links:
 
   - &crossword
     label: 'Crossword'
-    url: 'https://www.ft.com/crosswords'
+    url: 'https://www.ft.com/crossword'
     submenu:
 
   - &tools_services
