@@ -953,7 +953,7 @@ links:
 
   - &crossword
     label: 'Crossword'
-    url: 'http://www.ft.com/life-arts/crossword?ft_site=falcon&desktop=true'
+    url: 'https://www.ft.com/crosswords'
     submenu:
 
   - &tools_services
