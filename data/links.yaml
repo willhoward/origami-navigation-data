@@ -1072,7 +1072,7 @@ links:
     submenu:
 
   - &conferences_events
-    label: "FT Live: Conferences & Events"
+    label: "FT Live"
     url: "http://live.ft.com/"
     submenu:
 
