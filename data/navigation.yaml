@@ -358,8 +358,8 @@ footer:
     submenu:
       label:
       items:
-      - <<: *securedrop
       - <<: *conferences_events
+      - <<: *securedrop
       - <<: *individual_subscriptions
       - <<: *group_subscriptions
       - <<: *republishing
