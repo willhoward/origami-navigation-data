@@ -167,6 +167,7 @@ drawer-uk:
               - <<: *lisa_pollack
               - <<: *gideon_rachman
               - <<: *martin_sandbu
+              - <<: *rana_foroohar
               - <<: *robert_shrimsley
               - <<: *philip_stephens
               - <<: *lawrence_summers
