@@ -156,6 +156,7 @@ drawer-uk:
               - <<: *anjana_ahuja
               - <<: *nick_butler
               - <<: *gavyn_davies
+              - <<: *rana_foroohar
               - <<: *janan_ganesh
               - <<: *john_gapper
               - <<: *john_kay
@@ -167,7 +168,6 @@ drawer-uk:
               - <<: *lisa_pollack
               - <<: *gideon_rachman
               - <<: *martin_sandbu
-              - <<: *rana_foroohar
               - <<: *robert_shrimsley
               - <<: *philip_stephens
               - <<: *lawrence_summers
