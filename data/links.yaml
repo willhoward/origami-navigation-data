@@ -656,6 +656,11 @@ links:
     url: "/comment/columnists/gideonrachman"
     submenu:
 
+  - &rana_foroohar
+    label: "Rana Foroohar"
+    url: "/rana-foroohar"
+    submenu:
+
   - &robert_shrimsley
     label: "Robert Shrimsley"
     url: "/comment/columnists/robert-shrimsley"
