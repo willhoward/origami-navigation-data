@@ -293,7 +293,6 @@ drawer-international:
           - <<: *us_economy
           - <<: *us_politics_policy
           - <<: *us_companies
-          - <<: *us_election
       - <<: *companies
         submenu: *companies_submenu
       - <<: *markets
