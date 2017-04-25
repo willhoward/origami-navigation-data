@@ -942,7 +942,7 @@ links:
     submenu:
 
   - &epaper
-    label: "ePaper"
+    label: "Today's Newspaper (ePaper)"
     url: "http://www.ft.com/uk-edition"
     submenu:
 
