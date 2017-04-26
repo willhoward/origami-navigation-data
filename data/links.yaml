@@ -716,6 +716,26 @@ links:
     url: '/nick-butler'
     submenu:
 
+  - &david_gardner
+    label: 'David Gardner'
+    url: '/david-gardner'
+    submenu:
+
+  - &michael_skapinker
+    label: 'Michael Skapinker'
+    url: '/michael-skapinker'
+    submenu:
+
+  - &izabella_kaminska
+    label: 'Izabella Kaminska'
+    url: '/izabella-kaminska'
+    submenu:
+
+  - &sarah_oconnor
+    label: "Sarah O'Connor"
+    url: '/sarah-o-connor'
+    submenu:
+
   - &magazine
     label: "FT Magazine"
     url: "/magazine"
