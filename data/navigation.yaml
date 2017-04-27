@@ -158,17 +158,21 @@ drawer-uk:
               - <<: *gavyn_davies
               - <<: *rana_foroohar
               - <<: *janan_ganesh
+              - <<: *david_gardner
               - <<: *john_gapper
+              - <<: *izabella_kaminska
               - <<: *john_kay
               - <<: *lucy_kellaway
               - <<: *roula_khalaf
               - <<: *edward_luce
               - <<: *wolfgang_munchau
+              - <<: *sarah_oconnor
               - <<: *david_pilling
               - <<: *lisa_pollack
               - <<: *gideon_rachman
               - <<: *martin_sandbu
               - <<: *robert_shrimsley
+              - <<: *michael_skapinker
               - <<: *philip_stephens
               - <<: *lawrence_summers
               - <<: *gillian_tett
