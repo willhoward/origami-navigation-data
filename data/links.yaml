@@ -63,7 +63,7 @@ links:
 
   - &us_economy
     label: "US Economy"
-    url: "/global-economy/us"
+    url: "/us-economy"
     submenu:
 
   - &asia_pacific_economy
