@@ -160,6 +160,7 @@ drawer-uk:
               - <<: *janan_ganesh
               - <<: *david_gardner
               - <<: *john_gapper
+              - <<: *andrew_hill
               - <<: *izabella_kaminska
               - <<: *john_kay
               - <<: *lucy_kellaway
