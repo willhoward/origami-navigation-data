@@ -606,6 +606,11 @@ links:
     url: "/comment/columnists/john-gapper"
     submenu:
 
+  - &andrew_hill
+    label: "Andrew Hill"
+    url: "/andrew-hill"
+    submenu:
+
   - &john_kay
     label: "John Kay"
     url: "/comment/columnists/john-kay"
