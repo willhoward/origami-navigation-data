@@ -1156,6 +1156,11 @@ links:
     url: "http://www.ft.com/ebooks"
     submenu:
 
+  - &secondary_schools
+    label: "Access for UK Secondary Schools"
+    url: "https://enterprise.ft.com/en-gb/draft-preview/1436/"
+    submenu:
+
   - &agenda
     label: "Agenda"
     url: "http://agendaweek.com/"
