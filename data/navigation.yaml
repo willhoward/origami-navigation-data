@@ -374,6 +374,7 @@ footer:
       - <<: *advertise_with_the_ft
       - <<: *ft_twitter
       - <<: *ebooks
+      - <<: *secondary_schools
   - label: Tools
     url:
     submenu:
