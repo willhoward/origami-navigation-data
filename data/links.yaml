@@ -1157,7 +1157,7 @@ links:
     submenu:
 
   - &secondary_schools
-    label: "Access for UK Secondary Schools"
+    label: "UK Secondary Schools"
     url: "https://enterprise.ft.com/en-gb/draft-preview/1436/"
     submenu:
 
