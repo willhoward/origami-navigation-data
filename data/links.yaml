@@ -1153,7 +1153,7 @@ links:
 
   - &secondary_schools
     label: "UK Secondary Schools"
-    url: "https://enterprise.ft.com/en-gb/draft-preview/1436/"
+    url: "https://enterprise.ft.com/en-gb/secondary-schools/"
     submenu:
 
   - &agenda
