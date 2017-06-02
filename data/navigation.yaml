@@ -169,7 +169,6 @@ drawer-uk:
               - <<: *wolfgang_munchau
               - <<: *sarah_oconnor
               - <<: *david_pilling
-              - <<: *lisa_pollack
               - <<: *gideon_rachman
               - <<: *martin_sandbu
               - <<: *robert_shrimsley
