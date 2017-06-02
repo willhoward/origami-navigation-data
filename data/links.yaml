@@ -1001,11 +1001,6 @@ links:
     url: "http://lexicon.ft.com/?ft_site=falcon"
     submenu:
 
-  - &presscuttings
-    label: "Press Cuttings"
-    url: "http://presscuttings.ft.com/presscuttings/search.htm"
-    submenu:
-
   - &economic_calendar
     label: "Economic Calendar"
     url: "https://markets.ft.com/data/world/economic-calendar"

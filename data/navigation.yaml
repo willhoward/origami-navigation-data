@@ -397,8 +397,6 @@ footer:
         submenu:
       - <<: *currency_converter
         submenu:
-      - <<: *presscuttings
-        submenu:
 
 
 navbar-simple:
