@@ -1088,7 +1088,7 @@ links:
 
   - &editorial_code
     label: "FT Editorial Code of Practice"
-    url: "http://aboutus.ft.com/corporate-responsibility/ft-editorial-code"
+    url: "http://aboutus.ft.com/en-gb/ft-editorial-code/"
     submenu:
 
   - &conferences_events
