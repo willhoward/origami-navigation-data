@@ -1305,3 +1305,8 @@ links:
     url: "/securedrop"
     disableTracking: true
     submenu:
+
+  - &slavery_statement
+    label: "Slavery Statement"
+    url: "https://help.ft.com/help/legal/slavery-statement/"
+    submenu:
