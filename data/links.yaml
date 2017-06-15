@@ -993,7 +993,7 @@ links:
 
   - &newsletters
     label: "Newsletters"
-    url: "http://nbe.ft.com/nbe/profile.cfm?ft_site=falcon"
+    url: "/newsletters"
     submenu:
 
   - &lexicon
