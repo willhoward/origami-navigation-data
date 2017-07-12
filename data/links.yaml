@@ -1307,6 +1307,6 @@ links:
     submenu:
 
   - &slavery_statement
-    label: "Slavery Statement"
+    label: "Slavery Statement & Policies"
     url: "https://help.ft.com/help/legal/slavery-statement/"
     submenu:
