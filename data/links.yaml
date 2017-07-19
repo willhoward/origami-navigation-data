@@ -1103,7 +1103,7 @@ links:
 
   - &group_subscriptions
     label: "Group Subscriptions"
-    url: "https://enterprise.ft.com/en-gb/services/group-subscriptions/"
+    url: "https://enterprise.ft.com/en-gb/services/group-subscriptions/group-contact-us/?segmentId=e0a95430-6db2-1a45-3d1b-f51c1848ba6b&cpccampaign=B2B_link_ft.com_footer"
     submenu:
 
   - &republishing
