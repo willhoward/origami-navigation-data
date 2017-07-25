@@ -373,7 +373,7 @@ footer:
       - <<: *executive_job_search
       - <<: *advertise_with_the_ft
       - <<: *ft_twitter
-      - <<: *ebooks
+      - <<: *ft_transact
       - <<: *secondary_schools
   - label: Tools
     url:

@@ -1146,9 +1146,9 @@ links:
     url: "https://markets.ft.com/research/Markets/Currencies?segid=70113"
     submenu:
 
-  - &ebooks
-    label: "Ebooks"
-    url: "http://www.ft.com/ebooks"
+  - &ft_transact
+    label: "FT Transact"
+    url: "https://transact.ft.com"
     submenu:
 
   - &secondary_schools
