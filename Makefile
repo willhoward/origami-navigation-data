@@ -54,6 +54,8 @@ ifndef AWS_SECRET_KEY
 endif
 	@s3-cli put ./build/navigation.json s3://origami-navigation-service-data-eu/v2/navigation.json --region eu-west-1 -P
 	@s3-cli put ./build/navigation.json s3://origami-navigation-service-data-us/v2/navigation.json --region us-east-1 -P
+	@s3-cli put ./build/links.json s3://origami-navigation-service-data-eu/v2/links.json --region eu-west-1 -P
+	@s3-cli put ./build/links.json s3://origami-navigation-service-data-us/v2/links.json --region us-east-1 -P
 	@$(DONE)
 
 update-cmdb:

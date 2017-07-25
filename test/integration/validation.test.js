@@ -7,14 +7,13 @@ const path = require('path');
 const throat = require('throat')(10);
 const heads = require('heads');
 const url = require('url');
+const schema = require('../../data/schema');
 
 
 describe('Navigation data', () => {
-	let schema;
 	let navigationData;
 
 	beforeEach(() => {
-		schema = require('../../data/schema');
 		navigationData = require('../../build/navigation');
 	});
 
@@ -43,4 +42,21 @@ describe('Navigation data', () => {
 			});
 		});
 	});
+});
+
+describe('Links data', () => {
+	let linksData;
+
+	beforeEach(() => {
+		linksData = require('../../build/links');
+	});
+
+	it('adheres to navigation schema', () => {
+		linksData.forEach(link => {
+			const valid = schema.validate('item', link);
+			assert.isNull(schema.errors, 'The navigation data did not match the scheme:' + JSON.stringify(schema.errors, null, 4));
+			assert.equal(valid, true, 'The navigation data did not match the scheme');
+		});
+	});
+
 });
