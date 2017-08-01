@@ -963,7 +963,7 @@ links:
 
   - &epaper
     label: "Today's Newspaper (ePaper)"
-    url: "http://www.ft.com/uk-edition"
+    url: "https://www.ft.com/todaysnewspaper"
     submenu:
 
   - &video
