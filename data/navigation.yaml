@@ -154,6 +154,7 @@ drawer-uk:
               label:
               items:
               - <<: *anjana_ahuja
+              - <<: *john_authers
               - <<: *nick_butler
               - <<: *gavyn_davies
               - <<: *rana_foroohar
