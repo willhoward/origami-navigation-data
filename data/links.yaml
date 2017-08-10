@@ -596,6 +596,11 @@ links:
     url: '/comment/columnists/anjana-ahuja'
     submenu:
 
+  - &john_authers
+    label: 'John Authers'
+    url: '/john-authers'
+    submenu:
+
   - &janan_ganesh
     label: "Janan Ganesh"
     url: "/comment/columnists/janan-ganesh"
