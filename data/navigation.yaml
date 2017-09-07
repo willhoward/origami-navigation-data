@@ -164,7 +164,6 @@ drawer-uk:
               - <<: *andrew_hill
               - <<: *izabella_kaminska
               - <<: *john_kay
-              - <<: *lucy_kellaway
               - <<: *roula_khalaf
               - <<: *edward_luce
               - <<: *wolfgang_munchau
