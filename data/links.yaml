@@ -601,6 +601,11 @@ links:
     url: '/john-authers'
     submenu:
 
+  - &pilita_clark
+    label: 'Pilita Clark'
+    url: '/pilita-clark'
+    submenu:
+
   - &janan_ganesh
     label: "Janan Ganesh"
     url: "/comment/columnists/janan-ganesh"
