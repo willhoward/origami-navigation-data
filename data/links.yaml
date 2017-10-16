@@ -1008,7 +1008,7 @@ links:
 
   - &lexicon
     label: "Lexicon"
-    url: "http://lexicon.ft.com/?ft_site=falcon"
+    url: "https://markets.ft.com/data/lexicon"
     submenu:
 
   - &economic_calendar
