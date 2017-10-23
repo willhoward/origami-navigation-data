@@ -1008,7 +1008,7 @@ links:
 
   - &lexicon
     label: "Lexicon"
-    url: "https://markets.ft.com/data/lexicon"
+    url: "http://lexicon.ft.com/"
     submenu:
 
   - &economic_calendar
