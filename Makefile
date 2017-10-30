@@ -62,7 +62,7 @@ update-cmdb:
 ifndef CMDB_API_KEY
 	$(error CMDB_API_KEY is not set, cannot send updates to CMDB. You can find the key in LastPass)
 endif
-	@curl --silent --show-error -H 'Content-Type: application/json' -H 'apikey: ${CMDB_API_KEY}' -X PUT https://cmdb.ft.com/v2/items/system/origami-navigation-service-data -d @operational-documentation/runbook.json
+	@curl --silent --show-error -H 'Content-Type: application/json' -H 'apikey: ${CMDB_API_KEY}' -X PUT https://cmdb.in.ft.com/v2/items/system/origami-navigation-service-data -d @operational-documentation/runbook.json
 
 # Change Request tasks
 # --------------------
