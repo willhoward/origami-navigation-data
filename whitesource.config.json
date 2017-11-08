@@ -1,0 +1,7 @@
+{
+	"checkPolicies": true,
+	"projectName": "origami-navigation-data",
+	"productName": "origami-navigation-data",
+	"devDep": false,
+	"failOnError": true
+}

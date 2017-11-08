@@ -34,6 +34,10 @@
     "sinon": "^1.17.7",
     "sinon-as-promised": "^4.0.2",
     "throat": "^3.0.0",
-    "trim": "0.0.1"
+    "trim": "0.0.1",
+    "whitesource": "^1.1.1"
+  },
+  "scripts": {
+    "whitesource": "whitesource run"
   }
 }

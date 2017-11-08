@@ -6,6 +6,7 @@ test:
   override:
     - make verify
     - make test
+    - npm run whitesource
 
 deployment:
   release:
