@@ -1036,6 +1036,16 @@ links:
     url: "/logout"
     submenu:
 
+  - &anon_subscribe
+    label: "Subscribe"
+    url: "/products?segmentId=d290332b-e8e8-d29b-2ff4-2019b13f008a"
+    submenu:
+  
+  - &header_subscribe
+    label: "Subscribe"
+    url: "/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265"
+    submenu:
+  
   - &subscribe
     label: "Subscribe"
     url: "/products"

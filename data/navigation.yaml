@@ -332,7 +332,7 @@ anon:
   label: Anon
   items:
   - <<: *help
-  - <<: *subscribe
+  - <<: *anon_subscribe
   - <<: *sign_in
 
 
@@ -420,7 +420,7 @@ navbar-right-anon:
   label: Navigation
   items:
   - <<: *sign_in
-  - <<: *subscribe
+  - <<: *header_subscribe
 
 
 navbar-uk:
