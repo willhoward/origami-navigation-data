@@ -1,7 +1,7 @@
 {
 	"checkPolicies": true,
 	"projectName": "origami-navigation-data",
-	"productName": "origami-navigation-data",
+	"productName": "origami services and node modules",
 	"devDep": false,
 	"failOnError": true
 }
