@@ -31,7 +31,11 @@ describe('Navigation data', () => {
 			)
 		);
 
-		const urls = linkYaml.links.map(link => url.resolve('https://www.ft.com', link.url));
+		const urls = linkYaml.links
+			// Replace "currentPath" with an example path, as this will now error otherwise
+			.map(link => link.url.replace('${currentPath}', '/'))
+			// Resolve the link URL against FT.com
+			.map(linkUrl => url.resolve('https://www.ft.com', linkUrl));
 
 
 		urls.map(url => {
