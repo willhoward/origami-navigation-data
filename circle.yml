@@ -13,6 +13,6 @@ deployment:
     branch: master
     commands:
       - make deploy-s3
-      - make release-log
+      - make release-log || true
       - make update-cmdb
       - make auto-version
