@@ -1,17 +1,18 @@
 machine:
   node:
-    version: '6'
+    version: '8'
 
 test:
   override:
     - make verify
-    - make test
-    - npm run whitesource
+    - make build test
+    - make whitesource
 
 deployment:
   release:
     branch: master
     commands:
-      - make deploy
-      - make change-request
+      - make deploy-s3
+      - make release-log
       - make update-cmdb
+      - make auto-version
