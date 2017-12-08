@@ -264,6 +264,7 @@ drawer-uk:
       - <<: *alphaville
       - <<: *emsquared
       - <<: *lunch_with_the_ft
+      - <<: *ftcr
       - <<: *video
       - <<: *podcasts
       - <<: *blogs
