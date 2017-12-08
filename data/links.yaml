@@ -976,6 +976,11 @@ links:
     url: "https://www.ft.com/todaysnewspaper"
     submenu:
 
+  - &ftcr
+    label: "FT Confidential Research"
+    url: "https://www.ft.com/ft-confidential-research"
+    submenu:
+
   - &video
     label: 'Video'
     url: '/video'
