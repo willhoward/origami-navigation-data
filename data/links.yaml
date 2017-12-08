@@ -238,7 +238,7 @@ links:
 
   - &emerging_markets
     label: "Emerging Markets"
-    url: "/markets/emerging-markets"
+    url: "/emerging-markets"
     submenu:
 
   - &science
