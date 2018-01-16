@@ -92,6 +92,13 @@ drawer-uk:
               - <<: *construction
               - <<: *industrial_goods
               - <<: *support_services
+          - <<: *professional_services
+            submenu:
+              label:
+              items:
+              - <<: *accounting_consulting_services
+              - <<: *legal_services
+              - <<: *recruitment_services
           - <<: *media
           - <<: *retail_consumer
             submenu:
