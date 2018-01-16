@@ -321,6 +321,26 @@ links:
     url: "/companies/personal-goods"
     submenu:
 
+  - &professional_services
+    label: "Professional Services"
+    url: "/professional-services"
+    submenu:
+
+  - &accounting_consulting_services
+    label: "Accounting & Consulting Services"
+    url: "/accounting-consulting-services"
+    submenu:
+
+  - &legal_services
+    label: "Legal Services"
+    url: "/legal-services"
+    submenu:
+
+  - &recruitment_services
+    label: "Recruitment Services"
+    url: "/recruitment-services"
+    submenu:
+
   - &retail
     label: "Retail"
     url: "/companies/retail"
