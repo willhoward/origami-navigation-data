@@ -92,6 +92,7 @@ drawer-uk:
               - <<: *construction
               - <<: *industrial_goods
               - <<: *support_services
+          - <<: *media
           - <<: *professional_services
             submenu:
               label:
@@ -99,7 +100,6 @@ drawer-uk:
               - <<: *accounting_consulting_services
               - <<: *legal_services
               - <<: *recruitment_services
-          - <<: *media
           - <<: *retail_consumer
             submenu:
               label:
