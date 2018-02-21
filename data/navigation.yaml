@@ -241,6 +241,7 @@ drawer-uk:
               - <<: *restaurants
           - <<: *magazine
           - <<: *house_home
+          - <<: *nextact
           - <<: *style
           - <<: *travel
             submenu:
