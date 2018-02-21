@@ -821,6 +821,11 @@ links:
     url  : '/restaurants'
     submenu:
 
+  - &nextact
+    label: "Next Act"
+    url: "/next-act"
+    submenu:
+
   - &travel
     label: "Travel"
     url: "/travel"
