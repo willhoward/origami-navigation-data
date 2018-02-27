@@ -1198,7 +1198,7 @@ links:
 
   - &ft_transact
     label: "FT Transact"
-    url: "https://transact.ft.com"
+    url: "https://transact.ft.com/en-gb/"
     submenu:
 
   - &secondary_schools
@@ -1218,7 +1218,7 @@ links:
 
   - &board_iq
     label: "Board IQ"
-    url: "http://www.boardiq.com/"
+    url: "https://www.boardiq.com/"
     submenu:
 
   - &corporate_learning_alliance
@@ -1238,7 +1238,7 @@ links:
 
   - &fdi_intelligence
     label: "FDI Intelligence"
-    url: "http://www.fdiintelligence.com/"
+    url: "https://www.fdiintelligence.com/"
     submenu:
 
   - &financial_advisor_iq
@@ -1257,12 +1257,12 @@ links:
 
   - &ft_advisor
     label: "FT Adviser"
-    url: "http://www.ftadviser.com/"
+    url: "https://www.ftadviser.com/"
     submenu:
 
   - &fund_fire
     label: "Fund Fire"
-    url: "http://www.fundfire.com/"
+    url: "https://www.fundfire.com/"
     submenu:
 
   - &global_risk_regulator
@@ -1272,32 +1272,32 @@ links:
 
   - &how_to_spend_it
     label: "How to Spend It"
-    url: "http://howtospendit.ft.com/"
+    url: "https://howtospendit.ft.com/"
     submenu:
 
   - &ignites
     label: "Ignites"
-    url: "http://www.ignites.com/"
+    url: "https://www.ignites.com/"
     submenu:
 
   - &ignites_asia
     label: "Ignites Asia"
-    url: "http://www.ignitesasia.com/"
+    url: "https://www.ignitesasia.com/"
     submenu:
 
   - &ignites_europe
     label: "Ignites Europe"
-    url: "http://www.igniteseurope.com/"
+    url: "https://www.igniteseurope.com/"
     submenu:
 
   - &investors_chronicle
     label: "Investors Chronicle"
-    url: "http://www.investorschronicle.co.uk/"
+    url: "https://www.investorschronicle.co.uk/"
     submenu:
 
   - &mandate_wire
     label: "Mandate Wire"
-    url: "http://www.mandatewire.com/"
+    url: "https://www.mandatewire.com/"
     submenu:
 
   - &new_york_institute_finance
@@ -1307,7 +1307,7 @@ links:
 
   - &non_executive_directors_club
     label: "Non Executive Directors Club"
-    url: "http://www.non-execs.com/"
+    url: "https://www.non-execs.com/"
     submenu:
 
   - &pensions_expert
@@ -1317,12 +1317,12 @@ links:
 
   - &professional_wealth_management
     label: "Professional Wealth Management"
-    url: "http://www.pwmnet.com/"
+    url: "https://www.pwmnet.com/"
     submenu:
 
   - &125_club
     label: "The 125"
-    url: "http://the125.ft.com/"
+    url: "https://the125.ft.com/"
     submenu:
 
   - &the_banker
@@ -1332,12 +1332,12 @@ links:
 
   - &the_banker_database
     label: "The Banker Database"
-    url: "http://www.thebankerdatabase.com/"
+    url: "https://www.thebankerdatabase.com/"
     submenu:
 
   - &this_is_africa
     label: "This is Africa"
-    url: "http://www.thisisafricaonline.com/"
+    url: "https://www.thisisafricaonline.com/"
     submenu:
 
   - &collecting
