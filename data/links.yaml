@@ -1178,7 +1178,7 @@ links:
 
   - &advertise_with_the_ft
     label: "Advertise with the FT"
-    url: "http://fttoolkit.co.uk/d/"
+    url: "https://fttoolkit.co.uk/d/"
     submenu:
 
   - &ft_twitter
