@@ -1021,6 +1021,11 @@ links:
     url: 'https://www.ft.com/crossword'
     submenu:
 
+  - &apps
+    label: 'Our Apps'
+    url: 'https://www.ft.com/tour/apps'
+    submenu:
+
   - &tools_services
     label: "Tools & Services"
     url: "http://help.ft.com/help/tools-services/"
