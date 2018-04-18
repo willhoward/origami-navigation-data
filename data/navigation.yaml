@@ -243,6 +243,11 @@ drawer-uk:
           - <<: *house_home
           - <<: *nextact
           - <<: *style
+            submenu:
+              label:
+              items:
+              - <<: *fashion_shows
+              - <<: *art_fashion
           - <<: *travel
             submenu:
               label:
