@@ -856,6 +856,16 @@ links:
     url: "/life-arts/style"
     submenu:
 
+  - &fashion_shows
+    label: "Fashion shows"
+    url: "/style/fashion-shows"
+    submenu:
+
+  - &art_fashion
+    label: "The Art of Fashion"
+    url: "/art-of-fashion"
+    submenu:
+
   - &arts
     label: "Arts"
     url: "/arts"
