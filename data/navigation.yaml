@@ -359,7 +359,6 @@ footer:
       label:
       items:
       - <<: *view_site_tips
-      - <<: *feedback
       - <<: *help
       - <<: *about_us
       - <<: *accessibility
