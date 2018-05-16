@@ -339,6 +339,7 @@ user:
   items:
   - <<: *help
   - <<: *my_account
+  - <<: *contact_preferences
   - <<: *sign_out
 
 

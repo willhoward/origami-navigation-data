@@ -1101,6 +1101,11 @@ links:
     url: "https://myaccount.ft.com/details/core/view"
     submenu:
 
+  - &contact_preferences
+    label: "Contact Preferences"
+    url: "/myft/alerts"
+    submenu:
+
   - &my_ft
     label: "myFT"
     url: "/myft"
