@@ -183,12 +183,12 @@ links:
 
   - &chinese_economy
     label: "Chinese Economy"
-    url: "/stream/sectionsId/MTEx-U2VjdGlvbnM="
+    url: "/chinese-economy"
     submenu:
 
   - &china_politics_policy
     label: "China Politics & Policy"
-    url: "/topics/themes/China_Politics_&_Policy"
+    url: "/chinese-politics-policy"
     submenu:
 
   - &india
