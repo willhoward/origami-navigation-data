@@ -573,12 +573,12 @@ links:
 
   - &ft_view
     label: "FT View"
-    url: "/comment/ft-view"
+    url: "/ft-view"
     submenu:
 
   - &the_big_read
     label: "The Big Read"
-    url: "/comment/the-big-read"
+    url: "/the-big-read"
     submenu:
 
   - &instant_insight
@@ -593,27 +593,27 @@ links:
 
   - &columnists
     label: "Columnists"
-    url: "/comment/columnists"
+    url: "/columnists"
     submenu:
 
   - &blogs
     label: 'Blogs'
-    url: '/comment/blogs'
+    url: '/blogs'
     submenu:
 
   - &obituaries
     label: 'Obituaries'
-    url: '/comment/obituaries'
+    url: '/obituaries'
     submenu:
 
   - &letters
     label: 'Letters'
-    url: '/comment/letters'
+    url: '/letters'
     submenu:
 
   - &anjana_ahuja
     label: 'Anjana Ahuja'
-    url: '/comment/columnists/anjana-ahuja'
+    url: '/anjana-ahuja'
     submenu:
 
   - &john_authers
@@ -628,12 +628,12 @@ links:
 
   - &janan_ganesh
     label: "Janan Ganesh"
-    url: "/comment/columnists/janan-ganesh"
+    url: "/janan-ganesh"
     submenu:
 
   - &john_gapper
     label: "John Gapper"
-    url: "/comment/columnists/john-gapper"
+    url: "/john-gapper"
     submenu:
 
   - &andrew_hill
@@ -643,37 +643,32 @@ links:
 
   - &john_kay
     label: "John Kay"
-    url: "/comment/columnists/john-kay"
+    url: "/john-kay"
     submenu:
 
   - &lucy_kellaway
     label: "Lucy Kellaway"
-    url: "/comment/lucy-kellaway"
+    url: "/lucy-kellaway"
     submenu:
 
   - &roula_khalaf
     label: "Roula Khalaf"
-    url: "/comment/columnists/roula-khalaf"
+    url: "/roula-khalaf"
     submenu:
 
   - &edward_luce
     label: "Edward Luce"
-    url: "/comment/columnists/edluce"
-    submenu:
-
-  - &john_mcdermott
-    label: "John McDermott"
-    url: "/comment/columnists/john-mcdermott"
+    url: "/edward-luce"
     submenu:
 
   - &wolfgang_munchau
     label: "Wolfgang Münchau"
-    url: "/comment/columnists/wolfgang-munchau"
+    url: "/wolfgang-munchau"
     submenu:
 
   - &david_pilling
     label: "David Pilling"
-    url: "/comment/columnists/davidpilling"
+    url: "/david-pilling"
     submenu:
 
   - &ingram_pinn
@@ -681,14 +676,9 @@ links:
     url: "/ingram-pinn"
     submenu:
 
-  - &lisa_pollack
-    label: "Lisa Pollack"
-    url: "/comment/columnists/lisa-pollack"
-    submenu:
-
   - &gideon_rachman
     label: "Gideon Rachman"
-    url: "/comment/columnists/gideonrachman"
+    url: "/gideon-rachman"
     submenu:
 
   - &rana_foroohar
@@ -698,42 +688,42 @@ links:
 
   - &robert_shrimsley
     label: "Robert Shrimsley"
-    url: "/comment/columnists/robert-shrimsley"
+    url: "/robert-shrimsley"
     submenu:
 
   - &gary_Silverman
     label: "Gary Silverman"
-    url: "/comment/columnists/garysilverman"
+    url: "/gary-silverman"
     submenu:
 
   - &philip_stephens
     label: "Philip Stephens"
-    url: "/comment/columnists/philip-stephens"
+    url: "/philip-stephens"
     submenu:
 
   - &lawrence_summers
     label: "Lawrence Summers"
-    url: "/comment/columnists/lawrence-summers"
+    url: "/lawrence-summers"
     submenu:
 
   - &gillian_tett
     label: "Gillian Tett"
-    url: "/comment/columnists/gillian-tett"
+    url: "/gillian-tett"
     submenu:
 
   - &patti_waldmeir
     label: "Patti Waldmeir"
-    url: "/comment/columnists/patti-waldmeir"
+    url: "/patti-waldmeir"
     submenu:
 
   - &martin_wolf
     label: "Martin Wolf"
-    url: "/comment/columnists/martin-wolf"
+    url: "/martin-wolf"
     submenu:
 
   - &martin_sandbu
     label: 'Martin Sandbu'
-    url: '/topics/authors/Martin_Sandbu'
+    url: '/martin-sandbu'
     submenu:
 
   - &john_thornhill
