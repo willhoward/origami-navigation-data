@@ -778,22 +778,22 @@ links:
 
   - &essay
     label: "Essay"
-    url: "/life-arts/books/essay"
+    url: "/essay"
     submenu:
 
   - &fiction
     label: "Fiction"
-    url: "/life-arts/books/fiction"
+    url: "/fiction"
     submenu:
 
   - &non_fiction
     label: "Non-Fiction"
-    url: "/life-arts/books/non-fiction"
+    url: "/non-fiction"
     submenu:
 
   - &food_drink
     label: "Food & Drink"
-    url: "/life-arts/food-drink"
+    url: "/food-drink"
     submenu:
 
   - &wine
@@ -803,7 +803,7 @@ links:
 
   - &recipes
     label: 'Recipes'
-    url: '/arts-leisure/food-drink/recipes'
+    url: '/recipes'
     submenu:
 
   - &restaurants
@@ -833,22 +833,22 @@ links:
 
   - &city_breaks
     label: "City Breaks"
-    url: "/travel/city-breaks"
+    url: "/city-breaks"
     submenu:
 
   - &winter_breaks
     label: "Winter Sports"
-    url: "/travel/winter-sports"
+    url: "/winter-sports"
     submenu:
 
   - &style
     label: "Style"
-    url: "/life-arts/style"
+    url: "/style"
     submenu:
 
   - &fashion_shows
     label: "Fashion shows"
-    url: "/style/fashion-shows"
+    url: "/fashion-shows"
     submenu:
 
   - &art_fashion
@@ -868,27 +868,27 @@ links:
 
   - &design
     label: "Design"
-    url: "/arts/design"
+    url: "/design"
     submenu:
 
   - &visual_arts
     label: "Visual Arts"
-    url: "/arts/visual"
+    url: "/visual"
     submenu:
 
   - &theatre
     label: "Theatre"
-    url: "/arts/theatre"
+    url: "/theatre"
     submenu:
 
   - &dance
     label: "Dance"
-    url: "/arts/dance"
+    url: "/dance"
     submenu:
 
   - &music
     label: "Music"
-    url: "/arts/music"
+    url: "/music"
     submenu:
 
   - &film
@@ -918,17 +918,17 @@ links:
 
   - &applying_to_a_business_school
     label: "Applying to a Business School"
-    url: "/business-education/applying-to-business-school"
+    url: "/applying-to-business-school"
     submenu:
 
   - &starting_a_business
     label: "Starting a Business"
-    url: "/business-education/starting-a-business"
+    url: "/starting-a-business"
     submenu:
 
   - &executive_education
     label: "Executive Education"
-    url: "/business-education/executive-education"
+    url: "/executive-education"
     submenu:
 
   - &management
@@ -938,17 +938,17 @@ links:
 
   - &entrepreneurship
     label: "Entrepreneurship"
-    url: "/management/entrepreneurship"
+    url: "/entrepreneurship"
     submenu:
 
   - &recruitment
     label: "Recruitment"
-    url: "/management/recruitment"
+    url: "/recruitment"
     submenu:
 
   - &business_books
     label: "Business Books"
-    url: "/management/business-books"
+    url: "/business-books"
     submenu:
 
   - &alphaville
