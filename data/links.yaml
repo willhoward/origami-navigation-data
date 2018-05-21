@@ -873,7 +873,7 @@ links:
 
   - &visual_arts
     label: "Visual Arts"
-    url: "/visual"
+    url: "/visual-arts"
     submenu:
 
   - &theatre
