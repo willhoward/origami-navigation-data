@@ -58,7 +58,7 @@ links:
 
   - &central_banks
     label: "Central Banks"
-    url: "/topics/themes/Central_Banks"
+    url: "/central-banks"
     submenu:
 
   - &us_economy
@@ -158,7 +158,7 @@ links:
 
   - &european_union
     label: "European Union"
-    url: "/topics/organisations/European_Union"
+    url: "/european-union"
     submenu:
 
   - &latin_america
@@ -243,12 +243,12 @@ links:
 
   - &science
     label: "Science"
-    url: "/science"
+    url: "/companies/science"
     submenu:
 
   - &medical_science
     label: "Medical Science"
-    url: "/topics/themes/Medical_science"
+    url: "/medical-science"
     submenu:
 
   - &technology
@@ -313,7 +313,7 @@ links:
 
   - &luxury_goods
     label: 'Luxury Goods'
-    url: '/topics/themes/luxury-goods'
+    url: '/companies/luxury-goods'
     submenu:
 
   - &personal_household_goods
@@ -323,7 +323,7 @@ links:
 
   - &professional_services
     label: "Professional Services"
-    url: "/professional-services"
+    url: "/companies/professional-services"
     submenu:
 
   - &accounting_consulting_services
@@ -333,12 +333,12 @@ links:
 
   - &legal_services
     label: "Legal Services"
-    url: "/legal-services"
+    url: "/companies/legal-services"
     submenu:
 
   - &recruitment_services
     label: "Recruitment Services"
-    url: "/recruitment-services"
+    url: "/companies/recruitment-services"
     submenu:
 
   - &retail
@@ -453,32 +453,32 @@ links:
 
   - &commodities
     label: "Commodities"
-    url: "/markets/commodities"
+    url: "/commodities"
     submenu:
 
   - &oil
     label: "Oil"
-    url: "/topics/themes/Oil"
+    url: "/oil"
     submenu:
 
   - &gold
     label: "Gold"
-    url: "/topics/themes/Gold"
+    url: "/gold"
     submenu:
 
   - &copper
     label: "Copper"
-    url: "/topics/themes/Copper"
+    url: "/copper"
     submenu:
 
   - &currencies
     label: "Currencies"
-    url: "/markets/currencies"
+    url: "/currencies"
     submenu:
 
   - &equities
     label: "Equities"
-    url: "/markets/equities"
+    url: "/equities"
     submenu:
 
   - &us_equities
@@ -503,7 +503,7 @@ links:
 
   - &capital_markets
     label: "Capital Markets"
-    url: "/markets/capital-markets"
+    url: "/capital-markets"
     submenu:
 
   - &fund_management
@@ -513,7 +513,7 @@ links:
 
   - &exchange_traded_funds
     label: "Exchange Traded Funds"
-    url: "/topics/themes/exchange-traded-funds"
+    url: "/ftfm/etfs"
     submenu:
 
   - &investment_strategy
@@ -528,17 +528,17 @@ links:
 
   - &funds_regulation
     label: "Funds Regulation"
-    url: "/topics/themes/fund-regulation"
+    url: "/fund-regulation"
     submenu:
 
   - &pensions_industry
     label: "Pensions Industry"
-    url: "/topics/themes/pensions-industry"
+    url: "/pensions-industry"
     submenu:
 
   - &trading
     label: "Trading"
-    url: "/markets/trading"
+    url: "/ft-trading-room"
     submenu:
 
   - &clearing_settlement
@@ -568,7 +568,7 @@ links:
 
   - &trading_room
     label: "Trading Room"
-    url: "/markets/trading-room"
+    url: "/ft-trading-room"
     submenu:
 
   - &ft_view
