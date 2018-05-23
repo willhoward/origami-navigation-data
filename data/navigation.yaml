@@ -363,6 +363,7 @@ footer:
       - <<: *help
       - <<: *about_us
       - <<: *accessibility
+      - <<: *myft_tour
   - label: Legal & Privacy
     url:
     submenu:
