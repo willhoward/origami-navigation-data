@@ -1087,7 +1087,7 @@ links:
     submenu:
 
   - &my_account
-    label: "My Account"
+    label: "Account Settings"
     url: "https://myaccount.ft.com/details/core/view"
     submenu:
 
