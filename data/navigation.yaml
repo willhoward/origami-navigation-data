@@ -22,7 +22,7 @@ drawer-uk:
         submenu: &world_submenu
           label:
           items:
-          - <<: *world_economy
+          - <<: *global_economy
           - <<: *uk
             submenu:
               label:

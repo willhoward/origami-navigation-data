@@ -51,8 +51,8 @@ links:
     url: "/life-arts"
     submenu:
 
-  - &world_economy
-    label: "World Economy"
+  - &global_economy
+    label: "Global Economy"
     url: "/global-economy"
     submenu:
 
