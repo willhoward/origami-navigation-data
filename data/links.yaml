@@ -73,7 +73,7 @@ links:
 
   - &eu_economy
     label: "EU Economy"
-    url: "/global-economy/eu"
+    url: "/eu-economy"
     submenu:
 
   - &africas_economy
