@@ -1,0 +1,18 @@
+machine:
+  node:
+    version: '8'
+
+test:
+  override:
+    - make verify
+    - make build test
+    - make whitesource
+
+deployment:
+  release:
+    branch: master
+    commands:
+      - make deploy-s3
+      - make release-log || true
+      - make update-cmdb
+      - make auto-version
