@@ -456,7 +456,7 @@ navbar-uk:
     submenu: *work_careers_submenu
   - <<: *life_arts
     submenu: *life_arts_submenu
-
+  - <<: *how_to_spend_it
 
 navbar-international:
   label: Navigation
@@ -476,3 +476,4 @@ navbar-international:
     submenu: *work_careers_submenu
   - <<: *life_arts
     submenu: *life_arts_submenu
+  - <<: *how_to_spend_it
