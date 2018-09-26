@@ -110,7 +110,7 @@ drawer-uk:
               - <<: *retail
               - <<: *tobacco
               - <<: *travel_leisure
-          - <<: *technology
+          - <<: *tech_sector
           - <<: *telecoms
           - <<: *transport
             submenu:

@@ -251,8 +251,8 @@ links:
     url: "/medical-science"
     submenu:
 
-  - &technology
-    label: "Technology"
+  - &tech_sector
+    label: "Tech Sector"
     url: "/companies/technology"
     submenu:
 
