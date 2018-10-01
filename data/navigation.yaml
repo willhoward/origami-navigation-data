@@ -119,6 +119,7 @@ drawer-uk:
               - <<: *airlines
               - <<: *shipping
               - <<: *rail
+      - <<: *technology
       - <<: *markets
         submenu: &markets_submenu
           label:
@@ -284,6 +285,7 @@ drawer-international:
           - <<: *us_companies
       - <<: *companies
         submenu: *companies_submenu
+      - <<: *technology
       - <<: *markets
         submenu: *markets_submenu
       - <<: *opinion
@@ -418,6 +420,7 @@ navbar-uk:
     submenu: *uk_submenu
   - <<: *companies
     submenu: *companies_submenu
+  - <<: *technology
   - <<: *markets
     submenu: *markets_submenu
   - <<: *opinion
@@ -438,6 +441,7 @@ navbar-international:
     submenu: *us_submenu
   - <<: *companies
     submenu: *companies_submenu
+  - <<: *technology
   - <<: *markets
     submenu: *markets_submenu
   - <<: *opinion
