@@ -32,7 +32,7 @@ links:
     submenu:
 
   - &technology
-    label: Technology
+    label: Tech
     url: "/technology"
     submenu:
 
