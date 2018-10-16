@@ -163,7 +163,6 @@ drawer-uk:
           - <<: *instant_insight
           - <<: *lex
           - <<: *alphaville
-          - <<: *blogs
           - <<: *obituaries
           - <<: *letters
       - <<: *work_careers
@@ -251,7 +250,6 @@ drawer-uk:
       - <<: *ftcr
       - <<: *video
       - <<: *podcasts
-      - <<: *blogs
       - <<: *newsfeed
       - <<: *newsletters
   - label:
