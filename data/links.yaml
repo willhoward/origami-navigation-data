@@ -571,6 +571,16 @@ links:
     url: "/ft-trading-room/exchanges-consolidation"
     submenu:
 
+  - &derivatives
+    label: "Derivatives"
+    url: "/derivatives"
+    submenu:
+
+  - &otc_markets
+    label: "OTC markets"
+    url: "/otc-markets"
+    submenu:
+
   - &trading_room
     label: "Trading Room"
     url: "/ft-trading-room"
