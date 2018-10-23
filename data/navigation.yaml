@@ -153,6 +153,14 @@ drawer-uk:
               - <<: *funds_regulation
               - <<: *pensions_industry
           - <<: *trading
+            submenu:    
+              label:
+              items:
+              - <<: *clearing_settlement
+              - <<: *high_frequency_trading
+              - <<: *markets_regulation
+              - <<: *otc_markets
+              - <<: *derivatives           
       - <<: *opinion
         submenu: &opinion_submenu
           label:
