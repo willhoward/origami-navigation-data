@@ -558,7 +558,7 @@ links:
 
   - &markets_regulation
     label: "Markets Regulation"
-    url: "/ft-trading-room/markets-regulation"
+    url: "/financial-markets-regulation"
     submenu:
 
   - &trading_technology
