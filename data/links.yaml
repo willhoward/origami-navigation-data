@@ -42,7 +42,7 @@ links:
     submenu:
 
   - &graphics
-    label: Graphicsᴮᴱᵀᴬ
+    label: Graphics
     url: "/graphics"
     submenu:
 
