@@ -259,7 +259,6 @@ drawer-uk:
       - <<: *ftcr
       - <<: *video
       - <<: *podcasts
-      - <<: *graphics
       - <<: *newsfeed
       - <<: *newsletters
   - label:
