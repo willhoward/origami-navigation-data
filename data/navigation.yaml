@@ -295,6 +295,7 @@ drawer-international:
       - <<: *technology
       - <<: *markets
         submenu: *markets_submenu
+      - <<: *graphics
       - <<: *opinion
         submenu: *opinion_submenu
       - <<: *work_careers
