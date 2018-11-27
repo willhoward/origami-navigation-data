@@ -160,7 +160,8 @@ drawer-uk:
               - <<: *high_frequency_trading
               - <<: *markets_regulation
               - <<: *otc_markets
-              - <<: *derivatives           
+              - <<: *derivatives
+      - <<: *graphics
       - <<: *opinion
         submenu: &opinion_submenu
           label:
