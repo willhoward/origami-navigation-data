@@ -429,6 +429,7 @@ navbar-uk:
   - <<: *technology
   - <<: *markets
     submenu: *markets_submenu
+  - <<: *graphics
   - <<: *opinion
     submenu: *opinion_submenu
   - <<: *work_careers
@@ -450,6 +451,7 @@ navbar-international:
   - <<: *technology
   - <<: *markets
     submenu: *markets_submenu
+  - <<: *graphics
   - <<: *opinion
     submenu: *opinion_submenu
   - <<: *work_careers
