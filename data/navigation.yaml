@@ -257,10 +257,10 @@ drawer-uk:
       - <<: *emsquared
       - <<: *lunch_with_the_ft
       - <<: *ftcr
+      - <<: *newsletters
       - <<: *video
       - <<: *podcasts
       - <<: *newsfeed
-      - <<: *newsletters
   - label:
     url:
     submenu: &extras_submenu
