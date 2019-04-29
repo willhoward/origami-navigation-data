@@ -344,7 +344,6 @@ footer:
       - <<: *about_us
       - <<: *accessibility
       - <<: *myft_tour
-      - <<: *about_us_careers
   - label: Legal & Privacy
     url:
     submenu:
