@@ -1385,3 +1385,8 @@ links:
     label: "Slavery Statement & Policies"
     url: "https://help.ft.com/help/legal/slavery-statement/"
     submenu:
+
+  - &about_us_careers
+    label: "Careers"
+    url: "https://aboutus.ft.com/en-gb/careers/"
+    submenu:
