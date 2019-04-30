@@ -1,7 +1,7 @@
 #   Holds a flat list of every single link used on the site
 #   Each link should have an identifier (the bit beginning with &), and label and url.
-#   Naming convention: the identifier should be the name value with spaces replaced by underscores.  All all other punctiation should be removed,
-#                       including ampersands but all words are kept (so "name and name" becomes name_and_name but "name, name & name" becomes name_name_name
+#   Naming convention: the identifier should be the name value with spaces replaced by underscores.  All other punctuation should be removed,
+#                      including ampersands but all words are kept (so "name and name" becomes name_and_name but "name, name & name" becomes name_name_name
 #
 
 links:
