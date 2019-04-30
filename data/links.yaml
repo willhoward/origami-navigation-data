@@ -1061,11 +1061,6 @@ links:
     url: "/newsletters"
     submenu:
 
-  - &lexicon
-    label: "Lexicon"
-    url: "http://lexicon.ft.com/"
-    submenu:
-
   - &economic_calendar
     label: "Economic Calendar"
     url: "https://markets.ft.com/data/world/economic-calendar"

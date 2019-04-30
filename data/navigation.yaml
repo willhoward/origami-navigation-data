@@ -381,8 +381,6 @@ footer:
         submenu:
       - <<: *alerts_hub
         submenu:
-      - <<: *lexicon
-        submenu:
       - <<: *mba_rankings
         submenu:
       - <<: *economic_calendar
