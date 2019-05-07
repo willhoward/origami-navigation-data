@@ -384,6 +384,8 @@ footer:
         submenu:
       - <<: *mba_rankings
         submenu:
+      - <<: *enterprise_tools
+        submenu:
       - <<: *economic_calendar
         submenu:
       - <<: *newsfeed
