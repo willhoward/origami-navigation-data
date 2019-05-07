@@ -933,7 +933,7 @@ links:
 
   - &mba_rankings
     label: "MBA Rankings"
-    url: "http://rankings.ft.com/businessschoolrankings/global-mba-ranking-2016?ft_site=falcon"
+    url: "http://rankings.ft.com/businessschoolrankings/global-mba-ranking-2019"
     submenu:
 
   - &applying_to_a_business_school
