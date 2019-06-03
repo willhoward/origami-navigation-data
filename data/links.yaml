@@ -106,6 +106,11 @@ links:
     url: "/world/uk/politics"
     submenu:
 
+  - &brexit
+    label: "Brexit"
+    url: "/brexit"
+    submenu:
+
   - &uk_companies
     label: "UK Companies"
     url: "/companies/uk"
