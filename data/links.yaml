@@ -1066,11 +1066,6 @@ links:
     url: "/newsletters"
     submenu:
 
-  - &economic_calendar
-    label: "Economic Calendar"
-    url: "https://markets.ft.com/data/world/economic-calendar"
-    submenu:
-
   - &lunch_with_the_ft
     label: "Lunch with the FT"
     url: "/lunch-with-the-ft"

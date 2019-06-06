@@ -387,8 +387,6 @@ footer:
         submenu:
       - <<: *enterprise_tools
         submenu:
-      - <<: *economic_calendar
-        submenu:
       - <<: *newsfeed
         submenu:
       - <<: *newsletters
