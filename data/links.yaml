@@ -520,6 +520,11 @@ links:
     label: "Capital Markets"
     url: "/capital-markets"
     submenu:
+    
+  - &moral_money
+    label: "Moral Money"
+    url: "/moral-money"
+    submenu:
 
   - &fund_management
     label: "Fund Management"
