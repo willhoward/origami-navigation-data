@@ -162,6 +162,7 @@ drawer-uk:
               - <<: *markets_regulation
               - <<: *otc_markets
               - <<: *derivatives
+          - <<: *moral_money
       - <<: *graphics
       - <<: *opinion
         submenu: &opinion_submenu
@@ -258,6 +259,7 @@ drawer-uk:
       - <<: *emsquared
       - <<: *lunch_with_the_ft
       - <<: *ftcr
+      - <<: *moral_money
       - <<: *newsletters
       - <<: *video
       - <<: *podcasts
