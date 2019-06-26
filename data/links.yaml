@@ -530,6 +530,11 @@ links:
     label: "Fund Management"
     url: "/fund-management"
     submenu:
+    
+  - &ftfm
+    label: "FTfm"
+    url: "/ftfm"
+    submenu:    
 
   - &exchange_traded_funds
     label: "Exchange Traded Funds"
