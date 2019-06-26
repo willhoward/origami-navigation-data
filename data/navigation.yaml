@@ -150,6 +150,7 @@ drawer-uk:
             submenu:
               label:
               items:
+              - <<: *ftfm
               - <<: *exchange_traded_funds
               - <<: *funds_regulation
               - <<: *pensions_industry
@@ -260,6 +261,7 @@ drawer-uk:
       - <<: *lunch_with_the_ft
       - <<: *ftcr
       - <<: *moral_money
+      - <<: *ftfm
       - <<: *newsletters
       - <<: *video
       - <<: *podcasts
