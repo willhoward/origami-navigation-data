@@ -1,31 +1,66 @@
 version: 2
 
+# References to reduce duplication in the rest of the config
+references:
+  container: &container_config
+    docker:
+      - image: circleci/node:8
+  cache_key: &cache_key
+    dependency-cache-{{ checksum "package.json" }}
+  cache_node_modules: &cache_node_modules
+    save_cache:
+      key: *cache_key
+      paths:
+        - node_modules
+  restore_node_modules: &restore_node_modules
+    restore_cache:
+      keys:
+        - *cache_key
+
 # Circle jobs
 jobs:
 
   # Verify code then run unit and integration tests
   test:
-    docker:
-      - image: circleci/node:10
+    <<: *container_config
     steps:
       - checkout
-      - run: npm ci
-      - run: make build
-      - run: make verify
-      - run: make test
+      - *restore_node_modules
+      - run:
+          name: Install dependencies
+          command: npm install
+      - *cache_node_modules
+      - run:
+          name: Build the navigation JSON
+          command: make build
+      - run:
+          name: Run linters
+          command: make verify
+      - run:
+          name: Run tests
+          command: make test
 
   # deploy the navigation JSON
   deploy:
-    docker:
-      - image: circleci/node:10
+    <<: *container_config
     steps:
       - checkout
-      - run: npm ci
-      - run: make build
-      - run: make deploy-s3
-      - run: make release-log || true
-      - run: make update-cmdb
-      - run: make auto-version
+      - *restore_node_modules
+      - run:
+          name: Build the navigation JSON
+          command: make build
+      - run:
+          name: Deploy to S3
+          command: make deploy-s3
+      - run:
+          name: Create a release log
+          command: make release-log || true
+      - run:
+          name: Update CMDB
+          command: make update-cmdb
+      - run:
+          name: Generate a version
+          command: make auto-version
 
 # Circle workflows
 workflows:
