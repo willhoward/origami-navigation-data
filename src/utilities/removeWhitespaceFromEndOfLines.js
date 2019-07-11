@@ -1,10 +1,8 @@
 'use strict';
 
-const trim = require('trim');
-
 function removeTrailingSpaces(file) {
 	const normalised = file.split('\n')
-		.map(line => trim.right(line))
+		.map(line => line.trimRight())
 		.join('\n');
 	return normalised;
 }

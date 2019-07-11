@@ -1,19 +1,16 @@
 'use strict';
 
-const fs = require('fs');
+const fs = require('fs-extra');
 const path = require('path');
-const directoryExists = require('./directoryExists');
-const createDirectory = require('./createDirectory');
 
 module.exports = function saveToFile(data) {
 	const destDir = path.resolve(__dirname, '../../', 'build');
 
-	if (!directoryExists(destDir)) {
-		createDirectory(destDir);
-	}
+	fs.ensureDirSync(destDir);
 
-	fs.writeFileSync(path.join(destDir, 'links.json'), JSON.stringify(data.links, null, 4), {
-		encoding: 'utf8'
+	fs.writeJsonSync(path.join(destDir, 'links.json'), data.links, {
+		spaces: 4
 	});
+
 	return data;
 };
