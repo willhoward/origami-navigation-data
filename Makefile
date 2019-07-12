@@ -34,17 +34,11 @@ build:
 # Deploy tasks
 # ------------
 
-deploy-s3:
-ifndef AWS_ACCESS_KEY
-	$(error AWS_ACCESS_KEY is not set. You can find the key in LastPass)
+deploy:
+ifndef FASTLY_API_KEY
+	$(error FASTLY_API_KEY is not set. You can find the key in LastPass)
 endif
-ifndef AWS_SECRET_KEY
-	$(error AWS_SECRET_KEY is not set. You can find the key in LastPass)
-endif
-	@s3-cli put ./build/navigation.json s3://origami-navigation-service-data-eu/v2/navigation.json --region eu-west-1 -P
-	@s3-cli put ./build/navigation.json s3://origami-navigation-service-data-us/v2/navigation.json --region us-east-1 -P
-	@s3-cli put ./build/links.json s3://origami-navigation-service-data-eu/v2/links.json --region eu-west-1 -P
-	@s3-cli put ./build/links.json s3://origami-navigation-service-data-us/v2/links.json --region us-east-1 -P
+	@npx ssf deploy --directory build --service 3QKc6nmmSk44A7BEDfMFGI --snippet 1pblCPP9QkF1U9NKEi3zTf --fastly-api-key ${FASTLY_API_KEY}
 	@$(DONE)
 
 update-cmdb:

@@ -14,7 +14,7 @@ describe('Navigation data', () => {
 	let navigationData;
 
 	beforeEach(() => {
-		navigationData = require('../../build/navigation');
+		navigationData = require('../../build/v2/navigation');
 	});
 
 	it('adheres to navigation schema', () => {
@@ -68,7 +68,7 @@ describe('Links data', () => {
 	let linksData;
 
 	beforeEach(() => {
-		linksData = require('../../build/links');
+		linksData = require('../../build/v2/links');
 	});
 
 	it('adheres to navigation schema', () => {

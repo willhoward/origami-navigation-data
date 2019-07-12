@@ -16,7 +16,7 @@
     "url": "https://github.com/Financial-Times/origami-navigation-data.git"
   },
   "engines": {
-    "node": "^8",
+    "node": "^10",
     "npm": "^5"
   },
   "devDependencies": {
@@ -32,9 +32,9 @@
     "mocha": "^3.2.0",
     "mockery": "^2.0.0",
     "proclaim": "^3.4.4",
-    "s3-cli": "^0.13.0",
     "sinon": "^1.17.7",
     "sinon-as-promised": "^4.0.2",
+    "static-site-fastly-deployer": "github:Financial-Times/static-site-fastly-deployer",
     "throat": "^3.0.0"
   }
 }

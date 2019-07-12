@@ -41,7 +41,7 @@ Steps to edit navigation data:
 Requirements
 ------------
 
-Running Origami Navigation Service Data requires [Node.js] 6.x and [npm].
+Running Origami Navigation Service Data requires [Node.js] 10 and [npm].
 
 
 Running Locally
@@ -90,7 +90,7 @@ We run the tests and linter on CI, you can view [results on CircleCI][ci]. `make
 Deployment
 ----------
 
-The production ([EU][s3-eu]/[US][s3-us]) data is stored on AWS S3. We deploy continuously to production via [CircleCI][ci], you should never need to deploy manually.
+The production data is stored in Fastly. We deploy continuously to production via [CircleCI][ci], you should never need to deploy manually.
 
 
 Monitoring
@@ -113,5 +113,3 @@ The Financial Times has published this software under the [MIT license][license]
 [npm]: https://www.npmjs.com/
 [origami-navigation-service]: https://www.ft.com/__origami/service/navigation/v2
 [production-url]: https://www.ft.com/__origami/service/navigation-data/
-[s3-eu]: https://origami-navigation-service-data-eu.s3.amazonaws.com/v2/navigation.json
-[s3-us]: https://origami-navigation-service-data-us.s3.amazonaws.com/v2/navigation.json
