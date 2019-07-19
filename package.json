@@ -21,7 +21,8 @@
   },
   "devDependencies": {
     "@financial-times/origami-service-makefile": "^6.2.1",
-    "@financial-times/release-log": "^1.1.2",
+    "@financial-times/release-log": "^1.1.5",
+    "@quarterto/git-version-infer": "^6.0.0",
     "ajv": "^4.10.0",
     "eslint": "^2.13.1",
     "fs-extra": "^8.1.0",
