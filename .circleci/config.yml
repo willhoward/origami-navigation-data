@@ -25,7 +25,6 @@ jobs:
       - run: npm ci
       - run: make build
       - run: make deploy
-      - run: make release-log || true
       - run: make update-cmdb
       - run: make auto-version
 
@@ -43,7 +42,7 @@ workflows:
       - change-api/release-log:
           requires:
             - deploy
-          systemCode: 'origami-navigation-data'
+          systemCode: 'origami-navigation-service-data'
           environment: 'prod'
           slackChannels: 'origami-deploys'
           filters:
