@@ -1,6 +1,8 @@
-version: 2
+version: 2.1
 
-# Circle jobs
+orbs:
+    change-api: financial-times/change-api@0.24.0
+
 jobs:
 
   # Verify code then run unit and integration tests
@@ -29,7 +31,6 @@ jobs:
 
 # Circle workflows
 workflows:
-  version: 2
   test-and-deploy:
     jobs:
       - test
@@ -39,3 +40,13 @@ workflows:
           filters:
             branches:
               only: master
+      - change-api/release-log:
+          requires:
+            - deploy
+          systemCode: 'origami-navigation-data'
+          environment: 'prod'
+          slackChannels: 'origami-deploys'
+          filters:
+            branches:
+              only:
+                - master
