@@ -1008,7 +1008,7 @@ links:
 
   - &property_mortgages
     label: "Property & Mortgages"
-    url: "/personal-finance/property-mortgages"
+    url: "/personal-finance/mortgages"
     submenu:
 
   - &investments
