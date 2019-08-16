@@ -1018,7 +1018,7 @@ links:
 
   - &pensions
     label: "Pensions"
-    url: "/pensions"
+    url: "/personal-finance/pensions"
     submenu:
 
   - &tax
