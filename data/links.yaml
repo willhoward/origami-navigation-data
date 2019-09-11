@@ -801,6 +801,11 @@ links:
     url: "/magazine"
     submenu:
 
+  - &special_editions
+    label: "Special editions"
+    url: "/magazine-special-editions"
+    submenu:
+
   - &house_home
     label: "House & Home"
     url: "/house-home"
