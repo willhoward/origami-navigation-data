@@ -222,6 +222,10 @@ drawer-uk:
               - <<: *recipes
               - <<: *restaurants
           - <<: *magazine
+            submenu:
+              label:
+              items:
+              - <<: *special_editions
           - <<: *house_home
           - <<: *nextact
           - <<: *style
