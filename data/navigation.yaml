@@ -227,7 +227,6 @@ drawer-uk:
               items:
               - <<: *special_editions
           - <<: *house_home
-          - <<: *nextact
           - <<: *style
             submenu:
               label:
@@ -252,6 +251,7 @@ drawer-uk:
           - <<: *tax
           - <<: *banking_savings
           - <<: *advice&comment
+          - <<: *nextact
       - <<: *science
       - <<: *special_reports
   - label: FT recommends
