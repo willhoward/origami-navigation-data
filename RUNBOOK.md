@@ -12,7 +12,7 @@ Production
 
 ## Primary URL
 
-https://www.ft.com/__origami/service/navigation-data/v2/navigation.json
+https://origami-navigation-data.in.ft.com/v2/navigation.json
 
 ## Host Platform
 
