@@ -263,7 +263,7 @@ drawer-uk:
       - <<: *alphaville
       - <<: *emsquared
       - <<: *lunch_with_the_ft
-      - <<: *ftcr
+      - <<: *tsa
       - <<: *moral_money
       - <<: *ftfm
       - <<: *newsletters
