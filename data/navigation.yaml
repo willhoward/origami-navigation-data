@@ -29,6 +29,7 @@ drawer-uk:
               items:
               - <<: *uk_economy
               - <<: *uk_politics_policy
+              - <<: *ukelection
               - <<: *brexit
               - <<: *uk_companies
           - <<: *us
