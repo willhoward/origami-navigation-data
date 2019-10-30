@@ -111,6 +111,11 @@ links:
     url: "/brexit"
     submenu:
 
+  - &ukelection
+    label: "UK General Election"
+    url: "/uk-general-election"
+    submenu:
+    
   - &uk_companies
     label: "UK Companies"
     url: "/companies/uk"
