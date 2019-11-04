@@ -242,6 +242,7 @@ drawer-uk:
               - <<: *cycling_tours
               - <<: *city_breaks
               - <<: *winter_breaks
+          - <<: *globetrotter
       - <<: *personal_finance
         submenu: &personal_finance_submenu
           label:
@@ -264,6 +265,7 @@ drawer-uk:
       - <<: *alphaville
       - <<: *emsquared
       - <<: *lunch_with_the_ft
+      - <<: *globetrotter
       - <<: *tsa
       - <<: *moral_money
       - <<: *ftfm
