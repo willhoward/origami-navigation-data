@@ -885,7 +885,12 @@ links:
     label: "Winter Sports"
     url: "/winter-sports"
     submenu:
-
+    
+  - &globetrotter
+    label: "FT Globetrotter"
+    url: "/globetrotter"
+    submenu:
+    
   - &style
     label: "Style"
     url: "/style"
