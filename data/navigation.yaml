@@ -254,7 +254,7 @@ drawer-uk:
           - <<: *banking_savings
           - <<: *advice&comment
           - <<: *nextact
-      - <<: *science
+      - <<: *how_to_spend_it
       - <<: *special_reports
   - label: FT recommends
     url:
@@ -316,7 +316,7 @@ drawer-international:
         submenu: *life_arts_submenu
       - <<: *personal_finance
         submenu: *personal_finance_submenu
-      - <<: *science
+      - <<: *how_to_spend_it
       - <<: *special_reports
   - label: FT recommends
     url:
