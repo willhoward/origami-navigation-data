@@ -890,7 +890,37 @@ links:
     label: "FT Globetrotter"
     url: "/globetrotter"
     submenu:
-    
+
+  - &globetrotterlondon
+    label: "London"
+    url: "/globetrotter/london"
+    submenu:
+
+  - &globetrotterparis
+    label: "Paris"
+    url: "/globetrotter/paris"
+    submenu:
+
+  - &globetrotterhongkong
+    label: "Hong Kong"
+    url: "/globetrotter/hong-kong"
+    submenu:
+
+  - &globetrotternewyorkcity
+    label: "New York City"
+    url: "/globetrotter/new-york-city"
+    submenu:
+
+  - &globetrotterfrankfurt
+    label: "Frankfurt"
+    url: "/globetrotter/frankfurt"
+    submenu:
+
+  - &globetrottertokyo
+    label: "Tokyo"
+    url: "/globetrotter/tokyo"
+    submenu:
+
   - &style
     label: "Style"
     url: "/style"
