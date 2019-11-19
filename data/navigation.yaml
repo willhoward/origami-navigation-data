@@ -243,6 +243,15 @@ drawer-uk:
               - <<: *city_breaks
               - <<: *winter_breaks
           - <<: *globetrotter
+            submenu:
+              label:
+              items:
+              - <<: *globetrotterlondon
+              - <<: *globetrotterparis
+              - <<: *globetrotterhongkong
+              - <<: *globetrotternewyorkcity
+              - <<: *globetrotterfrankfurt
+              - <<: *globetrottertokyo
       - <<: *personal_finance
         submenu: &personal_finance_submenu
           label:
