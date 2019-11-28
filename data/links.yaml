@@ -1031,6 +1031,11 @@ links:
     url: "/business-books"
     submenu:
 
+  - &business_travel
+    label: "Business Travel"
+    url: "/business-travel"
+    submenu:
+
   - &alphaville
     label: "Alphaville"
     url: "https://ftalphaville.ft.com"
