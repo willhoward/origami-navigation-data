@@ -20,9 +20,7 @@ const menu = {
 			minItems: 1,
 			uniqueItems: true,
 			items: {
-				allOf: [{
-					$ref: 'item'
-				}]
+				$ref: 'item'
 			},
 			additionalItems: false
 		}
