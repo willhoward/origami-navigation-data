@@ -32,7 +32,7 @@
     "minimist": "^1.2.0",
     "mocha": "^3.2.0",
     "mockery": "^2.0.0",
-    "proclaim": "^3.4.4",
+    "proclaim": "^3.6.0",
     "sinon": "^1.17.7",
     "sinon-as-promised": "^4.0.2",
     "static-site-fastly-deployer": "github:Financial-Times/static-site-fastly-deployer",
