@@ -20,7 +20,7 @@
     "npm": "^5"
   },
   "devDependencies": {
-    "@financial-times/origami-service-makefile": "^6.2.1",
+    "@financial-times/origami-service-makefile": "^7.0.0",
     "@financial-times/release-log": "^1.1.5",
     "@quarterto/git-version-infer": "^6.0.0",
     "ajv": "^4.10.0",
