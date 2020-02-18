@@ -24,7 +24,7 @@
     "@financial-times/release-log": "^1.1.5",
     "@quarterto/git-version-infer": "^6.0.0",
     "ajv": "^4.10.0",
-    "eslint": "^4.18.2",
+    "eslint": "^6.8.0",
     "fs-extra": "^8.1.0",
     "heads": "^1.2.0",
     "istanbul": "^0.4.5",
