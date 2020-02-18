@@ -36,6 +36,6 @@
     "sinon": "^1.17.7",
     "sinon-as-promised": "^4.0.2",
     "static-site-fastly-deployer": "github:Financial-Times/static-site-fastly-deployer",
-    "throat": "^3.0.0"
+    "throat": "^5.0.0"
   }
 }
