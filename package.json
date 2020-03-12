@@ -29,7 +29,7 @@
     "heads": "^1.2.0",
     "istanbul": "^0.4.5",
     "js-yaml": "^3.13.1",
-    "minimist": "^1.2.3",
+    "minimist": "^1.2.4",
     "mocha": "^7.1.0",
     "mockery": "^2.0.0",
     "proclaim": "^3.6.0",
