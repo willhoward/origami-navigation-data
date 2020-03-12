@@ -78,7 +78,7 @@ links:
 
   - &us_presidentialelection
     label: "US Presidential Election"
-    url: "/us-economy"
+    url: "/us-presidential-election"
     submenu:
 
   - &asia_pacific_economy
