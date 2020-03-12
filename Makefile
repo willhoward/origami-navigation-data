@@ -40,9 +40,3 @@ ifndef FASTLY_API_KEY
 endif
 	@npx ssf deploy --directory build --service 3QKc6nmmSk44A7BEDfMFGI --snippet 1pblCPP9QkF1U9NKEi3zTf --fastly-api-key ${FASTLY_API_KEY}
 	@$(DONE)
-
-update-cmdb:
-ifndef CMDB_API_KEY
-	$(error CMDB_API_KEY is not set, cannot send updates to CMDB. You can find the key in Vault)
-endif
-	@curl --silent --show-error -H 'Content-Type: application/json' -H 'apikey: ${CMDB_API_KEY}' -X PUT https://cmdb.in.ft.com/v2/items/system/origami-navigation-service-data -d @operational-documentation/runbook.json
