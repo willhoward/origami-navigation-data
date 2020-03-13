@@ -310,10 +310,10 @@ drawer-international:
         submenu: &us_submenu
           label:
           items:
-       - <<: *us_economy
-       - <<: *us_companies
-       - <<: *us_politics_policy
-       - <<: *us_presidentialelection
+          - <<: *us_economy
+          - <<: *us_companies
+          - <<: *us_politics_policy
+          - <<: *us_presidentialelection
       - <<: *companies
         submenu: *companies_submenu
       - <<: *technology
