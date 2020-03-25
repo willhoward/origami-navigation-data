@@ -421,7 +421,6 @@ navbar-simple:
   label: Navigation
   items:
   - <<: *home
-  - <<: *fastft
   - <<: *markets_data
 
 
